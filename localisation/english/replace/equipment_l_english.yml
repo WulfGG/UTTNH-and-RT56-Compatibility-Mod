@@ -626,10 +626,12 @@
  
  
  motorized_rocket_equipment_2:0 "Rocket Artillery 1950"
+ motorized_rocket_equipment_2_short:0 "Rocket Artillery 1950"
  motorized_rocket_equipment_2_desc:0 ""
  motorized_rocket_equipment_3:0 "Rocket Artillery 1960"
  motorized_rocket_equipment_3_short:0 "Rocket Artillery 1960"
  motorized_rocket_equipment_3_desc:0 ""
+ motorized_rocket_equipment_4:0 "Rocket Artillery 1980"
  motorized_rocket_equipment_4_short:0 "Rocket Artillery 1980"
  motorized_rocket_equipment_4_desc:0 ""
 
