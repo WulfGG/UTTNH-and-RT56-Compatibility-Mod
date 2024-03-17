@@ -218,7 +218,7 @@ spriteTypes = {
 	}	
 	SpriteType = {
 		name = "GFX_motorized_rocket_equipment_4_medium"
-		texturefile = "gfx/interface/technologies/USA/LAND/MLRS5.dds"
+		texturefile = "gfx/interface/technologies/SOV/LAND/MLRS5.dds"
 	}	
 
 	SpriteType = {
