@@ -201,6 +201,15 @@ technologies = {
 		mechanized = {
 			soft_attack = 0.05
 		}
+
+		mot_shocktroop = {
+			soft_attack = 0.05
+		}
+
+		mech_shocktroop = {
+			soft_attack = 0.05
+		}
+
 		amphibious_mechanized = {
 			soft_attack = 0.05
 		}
@@ -312,6 +321,15 @@ technologies = {
 		mechanized = {
 			soft_attack = 0.05
 		}
+
+		mot_shocktroop = {
+			soft_attack = 0.05
+		}
+
+		mech_shocktroop = {
+			soft_attack = 0.05
+		}
+
 		amphibious_mechanized = {
 			soft_attack = 0.05
 		}
@@ -935,9 +953,19 @@ technologies = {
 		motorized = {
 			soft_attack = 0.1
 		}
+
 		mechanized = {
 			soft_attack = 0.1
 		}
+
+		mot_shocktroop = {
+			soft_attack = 0.05
+		}
+
+		mech_shocktroop = {
+			soft_attack = 0.05
+		}
+
 		amphibious_mechanized = {
 			soft_attack = 0.1
 		}		
@@ -2200,6 +2228,10 @@ technologies = {
 			leads_to_tech = winter_clothes_1939
 			research_cost_coeff = 1
 		}
+		path = {
+			leads_to_tech = jaegers
+			research_cost_coeff = 1
+		}
 
 		research_cost = 1.5
 		start_year = 1936
@@ -2364,6 +2396,276 @@ technologies = {
 		}
 	}
 
+	jaegers = {
+
+		enable_subunits = {
+			jaeger
+		}
+		
+		on_research_complete_limit = {
+			NOT = {
+				has_template_containing_unit = jaeger
+			}
+		}
+		on_research_complete = {
+			hidden_effect = {
+				load_oob = "unlock_jaegers"
+			}			
+			custom_effect_tooltip = UNLOCK_DIVISION_TEMPLATE
+		}
+
+		path = {
+			leads_to_tech = jaegers2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+		start_year = 1936
+		folder = {
+			name = infantry_folder
+			position = { x = 14 y = @1936 }
+		}
+		
+		categories = {
+			r56_jaeger_infantry_tech
+			infantry_tech
+		}
+		
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				add = 4
+				OR = {
+					tag = FIN
+					tag = SWE
+					tag = BEL
+				}
+			}
+		}
+	}
+	
+	jaegers2 = {
+
+		jaeger = {
+			acclimatization_cold_climate_gain_factor = 0.20
+			soft_attack = 0.02
+			defense = 0.02
+		}
+		
+
+		path = {
+			leads_to_tech = jaegers3
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1.5
+		start_year = 1939
+		folder = {
+			name = infantry_folder
+			position = { x = 14 y = @1939 }
+		}
+		
+		categories = {
+			r56_jaeger_infantry_tech
+			infantry_tech
+
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				add = 4
+				OR = {
+					tag = FIN
+					tag = SWE
+					tag = BEL
+				}
+			}
+		}		
+	}
+	
+	jaegers3 = {
+
+		jaeger = {
+			acclimatization_cold_climate_gain_factor = 0.20
+			soft_attack = 0.02
+			defense = 0.02
+		}
+		
+		path = {
+			leads_to_tech = jaegers4
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2.0
+		start_year = 1943
+		folder = {
+			name = infantry_folder
+			position = { x = 14 y = @1943 }
+		}
+		
+		categories = {
+			r56_jaeger_infantry_tech
+			infantry_tech
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				add = 4
+				OR = {
+					tag = FIN
+					tag = SWE
+					tag = BEL
+				}
+			}
+		}		
+	}	
+	
+	jaegers4 = {
+
+		jaeger = {
+			acclimatization_cold_climate_gain_factor = 0.20
+			soft_attack = 0.02
+			defense = 0.02 
+		}
+
+		path = {
+			leads_to_tech = jaegers5
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2.0
+		start_year = 1950
+		folder = {
+			name = infantry_folder
+			position = { x = 14 y = 22 }
+		}
+		
+		categories = {
+			r56_jaeger_infantry_tech
+			infantry_tech
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				add = 4
+				OR = {
+					tag = FIN
+					tag = SWE
+					tag = BEL
+				}
+			}
+		}		
+	}
+	
+	jaegers5 = {
+
+		jaeger = {
+			acclimatization_cold_climate_gain_factor = 0.20
+			soft_attack = 0.02
+			defense = 0.02 
+		}
+		
+		path = {
+			leads_to_tech = jaegers6
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2.0
+		start_year = 1960
+		folder = {
+			name = infantry_folder
+			position = { x = 14 y = 26 }
+		}
+		
+		categories = {
+			r56_jaeger_infantry_tech	
+			infantry_tech
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				add = 4
+				OR = {
+					tag = FIN
+					tag = SWE
+					tag = BEL
+				}
+			}
+		}		
+	}
+	
+	jaegers6 = {
+
+
+		jaeger = {
+			acclimatization_cold_climate_gain_factor = 0.20
+			soft_attack = 0.02
+			defense = 0.02 
+		}
+
+		path = {
+			leads_to_tech = jaegers7
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2.0
+		start_year = 1970
+		folder = {
+			name = infantry_folder
+			position = { x = 14 y = 30 }
+		}
+		
+		categories = {
+			r56_jaeger_infantry_tech
+			infantry_tech
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				add = 4
+				OR = {
+					tag = FIN
+					tag = SWE
+					tag = BEL
+				}
+			}
+		}		
+	}
+
+	jaegers7 = {
+
+
+		jaeger = {
+			acclimatization_cold_climate_gain_factor = 0.20
+			soft_attack = 0.02
+			defense = 0.02 
+		}
+
+		research_cost = 2.0
+		start_year = 1953
+		folder = {
+			name = infantry_folder
+			position = { x = 14 y = 34 }
+		}
+		
+		categories = {
+			r56_jaeger_infantry_tech
+			infantry_tech
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				add = 4
+				OR = {
+					tag = FIN
+					tag = SWE
+					tag = BEL
+				}
+			}
+		}		
+	}
+
+
 	jngdst_clothes_gw = {
 
 		path = {
@@ -2372,12 +2674,12 @@ technologies = {
 		}		
 
 		path = {
-			leads_to_tech = forestis
+			leads_to_tech = jungletroops
 			research_cost_coeff = 1
 		}		
 
 		path = {
-			leads_to_tech = desertis
+			leads_to_tech = desertinfantry_at
 			research_cost_coeff = 1
 		}		
 
@@ -2628,28 +2930,31 @@ technologies = {
 		}
 	}
 
-	forestis = {
+	jungletroops = {
 
 		enable_subunits = {
-			foresti
-		}
-		on_research_complete_limit = {
-				NOT = {
-					has_template_containing_unit = foresti
-				}
-			}
-		on_research_complete = {
-			
-			hidden_effect = {
-				load_oob = "unlock_foresti"
-			}
-			custom_effect_tooltip = UNLOCK_DIVISION_TEMPLATE
+
+			jungletroop
 		}
 		
+		on_research_complete_limit = {
+			NOT = {
+				has_template_containing_unit = jungletroop
+			}
+		}
+		on_research_complete = {
+			hidden_effect = {
+
+				load_oob = "unlock_jungletroops"
+			}			
+			custom_effect_tooltip = UNLOCK_DIVISION_TEMPLATE
+		}
+
 		path = {
-			leads_to_tech = forestis2
+
+			leads_to_tech = jungletroops2
 			research_cost_coeff = 1
-		}	
+		}
 
 		research_cost = 2
 		start_year = 1936
@@ -2660,12 +2965,11 @@ technologies = {
 		
 		categories = {
 			infantry_tech
-			foresti_tech
-			cat_special_forces_generic
+			r56_jungle_infantry_tech
 		}
 		
 		ai_will_do = {
-			factor = 0.7
+			factor = 0
 			modifier = {
 				add = 4
 				OR = {
@@ -2680,25 +2984,24 @@ technologies = {
 					tag = SAF
 				}
 			}
-
 		}
 	}
+	
+	jungletroops2 = {
 
-	forestis2 = {
-
-		foresti = {
-			max_organisation = 5
-			soft_attack = 0.05
+		jungletroop = {
 			acclimatization_hot_climate_gain_factor = 0.20
-
+			defense = 0.02
+			soft_attack = 0.02
 		}
-		
+
 		path = {
-			leads_to_tech = forestis3
+
+			leads_to_tech = jungletroops3
 			research_cost_coeff = 1
 		}
-
-		research_cost = 2
+		
+		research_cost = 1.5
 		start_year = 1939
 		folder = {
 			name = infantry_folder
@@ -2707,11 +3010,10 @@ technologies = {
 		
 		categories = {
 			infantry_tech
-			foresti_tech
+			r56_jungle_infantry_tech
 		}
-		
 		ai_will_do = {
-			factor = 0.7
+			factor = 0
 			modifier = {
 				add = 4
 				OR = {
@@ -2728,21 +3030,22 @@ technologies = {
 			}
 		}
 	}
+	
+	jungletroops3 = {
 
-	forestis3 = {
-
-		foresti = {
-			max_organisation = 5
+		jungletroop = {
 			acclimatization_hot_climate_gain_factor = 0.20
-
+			defense = 0.02 
+			soft_attack = 0.02
 		}
 		
 		path = {
-			leads_to_tech = forestis4
+
+			leads_to_tech = jungletroops4
 			research_cost_coeff = 1
 		}
 
-		research_cost = 2
+		research_cost = 2.0
 		start_year = 1943
 		folder = {
 			name = infantry_folder
@@ -2751,11 +3054,10 @@ technologies = {
 		
 		categories = {
 			infantry_tech
-			foresti_tech
+			r56_jungle_infantry_tech
 		}
-		
 		ai_will_do = {
-			factor = 0.7
+			factor = 0
 			modifier = {
 				add = 4
 				OR = {
@@ -2770,23 +3072,24 @@ technologies = {
 					tag = SAF
 				}
 			}
-		}
+		}		
 	}
+	
+	jungletroops4 = {
 
-	forestis4 = {
-
-		foresti = {
-			max_organisation = 5
-			soft_attack = 0.05
+		jungletroop = {
 			acclimatization_hot_climate_gain_factor = 0.20
+			defense = 0.02 
+			soft_attack = 0.02
 		}
 		
 		path = {
-			leads_to_tech = forestis5
+
+			leads_to_tech = jungletroops5
 			research_cost_coeff = 1
 		}
 
-		research_cost = 2
+		research_cost = 2.0
 		start_year = 1950
 		folder = {
 			name = infantry_folder
@@ -2795,11 +3098,10 @@ technologies = {
 		
 		categories = {
 			infantry_tech
-			foresti_tech
+			r56_jungle_infantry_tech
 		}
-		
 		ai_will_do = {
-			factor = 0.7
+			factor = 0
 			modifier = {
 				add = 4
 				OR = {
@@ -2814,35 +3116,36 @@ technologies = {
 					tag = SAF
 				}
 			}
-		}
+		}		
 	}
+	
+	jungletroops5 = {
 
-	forestis5 = {
-
-		foresti = {
-			max_organisation = 5
+		jungletroop = {
 			acclimatization_hot_climate_gain_factor = 0.20
+			defense = 0.02 
+			soft_attack = 0.02
 		}
 		
 		path = {
-			leads_to_tech = forestis6
+
+			leads_to_tech = jungletroops6
 			research_cost_coeff = 1
 		}
 
-		research_cost = 2
+		research_cost = 2.0
 		start_year = 1960
 		folder = {
 			name = infantry_folder
-			position = { x = 11 y = 26 }
+			position = { x = 11 y = 26}
 		}
 		
 		categories = {
 			infantry_tech
-			foresti_tech
+			r56_jungle_infantry_tech
 		}
-		
 		ai_will_do = {
-			factor = 0.7
+			factor = 0
 			modifier = {
 				add = 4
 				OR = {
@@ -2857,24 +3160,23 @@ technologies = {
 					tag = SAF
 				}
 			}
-
-		}
+		}		
 	}
+	
+	jungletroops6 = {
 
-	forestis6 = {
-
-		foresti = {
-			max_organisation = 5
-			soft_attack = 0.05
+		jungletroop = {
 			acclimatization_hot_climate_gain_factor = 0.20
+			defense = 0.02 
+			soft_attack = 0.02
 		}
-		
+
 		path = {
-			leads_to_tech = forestis7
+			leads_to_tech = jungletroops7
 			research_cost_coeff = 1
 		}
 
-		research_cost = 2
+		research_cost = 2.0
 		start_year = 1970
 		folder = {
 			name = infantry_folder
@@ -2883,11 +3185,10 @@ technologies = {
 		
 		categories = {
 			infantry_tech
-			foresti_tech
+			r56_jungle_infantry_tech
 		}
-		
 		ai_will_do = {
-			factor = 0.7
+			factor = 0
 			modifier = {
 				add = 4
 				OR = {
@@ -2902,17 +3203,18 @@ technologies = {
 					tag = SAF
 				}
 			}
-
-		}
+		}		
 	}
 
-	forestis7 = {
+	jungletroops7 = {
 
-		foresti = {
-			max_organisation = 5
+		jungletroop = {
+			acclimatization_hot_climate_gain_factor = 0.20
+			defense = 0.02 
+			soft_attack = 0.02
 		}
 
-		research_cost = 2
+		research_cost = 2.0
 		start_year = 1980
 		folder = {
 			name = infantry_folder
@@ -2921,11 +3223,10 @@ technologies = {
 		
 		categories = {
 			infantry_tech
-			foresti_tech
+			r56_jungle_infantry_tech
 		}
-		
 		ai_will_do = {
-			factor = 0.7
+			factor = 0
 			modifier = {
 				add = 4
 				OR = {
@@ -2940,30 +3241,30 @@ technologies = {
 					tag = SAF
 				}
 			}
-
-		}
+		}		
 	}
 
-	desertis = {
+	desertinfantry_at = {
 
 		enable_subunits = {
-			deserti
+			desertinfantry
 		}
-		on_research_complete_limit = {
-				NOT = {
-					has_template_containing_unit = deserti
-				}
+
+		on_research_complete_limit = {	
+			NOT = {
+				has_template_containing_unit = desertinfantry
 			}
+		}
 		on_research_complete = {
-			
 			hidden_effect = {
-				load_oob = "unlock_deserti"
-			}
+				load_oob = "unlock_desertinfantry"
+			}			
 			custom_effect_tooltip = UNLOCK_DIVISION_TEMPLATE
 		}
-		
+
 		path = {
-			leads_to_tech = desertis2
+
+			leads_to_tech = desertinfantry_at2
 			research_cost_coeff = 1
 		}
 
@@ -2971,17 +3272,16 @@ technologies = {
 		start_year = 1936
 		folder = {
 			name = infantry_folder
-			position = { x = 13` y = @1936 }
+			position = { x = 13 y = @1936 }
 		}
 		
 		categories = {
 			infantry_tech
-			deserti_tech
-			cat_special_forces_generic
+			r56_desert_infantry_tech
 		}
 		
 		ai_will_do = {
-			factor = 0.7
+			factor = 0
 			modifier = {
 				add = 4
 				OR = {
@@ -2995,24 +3295,24 @@ technologies = {
 					tag = YEM
 				}
 			}
-
 		}
 	}
+	
+	desertinfantry_at2 = {
 
-	desertis2 = {
-
-		deserti = {
-			max_organisation = 5
-			soft_attack = 0.05
+		desertinfantry = {
 			acclimatization_hot_climate_gain_factor = 0.20
+			defense = 0.02 
+			soft_attack = 0.02
 		}
-
+		
 		path = {
-			leads_to_tech = desertis3
+
+			leads_to_tech = desertinfantry_at3
 			research_cost_coeff = 1
 		}
 
-		research_cost = 2
+		research_cost = 1.5
 		start_year = 1939
 		folder = {
 			name = infantry_folder
@@ -3021,11 +3321,10 @@ technologies = {
 		
 		categories = {
 			infantry_tech
-			deserti_tech
+			r56_desert_infantry_tech
 		}
-		
 		ai_will_do = {
-			factor = 0.7
+			factor = 0
 			modifier = {
 				add = 4
 				OR = {
@@ -3039,24 +3338,24 @@ technologies = {
 					tag = YEM
 				}
 			}
-
 		}
 	}
+	
+	desertinfantry_at3 = {
 
-	desertis3 = {
-
-		deserti = {
-			max_organisation = 5
+		desertinfantry = {
 			acclimatization_hot_climate_gain_factor = 0.20
-
+			defense = 0.02 
+			soft_attack = 0.02
 		}
-
+		
 		path = {
-			leads_to_tech = desertis4
+
+			leads_to_tech = desertinfantry_at4
 			research_cost_coeff = 1
 		}
-
-		research_cost = 2
+		
+		research_cost = 2.0
 		start_year = 1943
 		folder = {
 			name = infantry_folder
@@ -3065,11 +3364,10 @@ technologies = {
 		
 		categories = {
 			infantry_tech
-			deserti_tech
+			r56_desert_infantry_tech
 		}
-		
 		ai_will_do = {
-			factor = 0.7
+			factor = 0
 			modifier = {
 				add = 4
 				OR = {
@@ -3083,25 +3381,24 @@ technologies = {
 					tag = YEM
 				}
 			}
-
-		}
+		}		
 	}
 
-	desertis4 = {
+	desertinfantry_at4 = {
 
-		deserti = {
-			max_organisation = 5
-			soft_attack = 0.05
+		desertinfantry = {
 			acclimatization_hot_climate_gain_factor = 0.20
-
+			defense = 0.02 
+			soft_attack = 0.02
 		}
-
+		
 		path = {
-			leads_to_tech = desertis5
+
+			leads_to_tech = desertinfantry_at5
 			research_cost_coeff = 1
 		}
-
-		research_cost = 2
+		
+		research_cost = 2.0
 		start_year = 1950
 		folder = {
 			name = infantry_folder
@@ -3110,11 +3407,11 @@ technologies = {
 		
 		categories = {
 			infantry_tech
-			deserti_tech
+			r56_desert_infantry_tech
 		}
-		
+
 		ai_will_do = {
-			factor = 0.7
+			factor = 0
 			modifier = {
 				add = 4
 				OR = {
@@ -3128,24 +3425,24 @@ technologies = {
 					tag = YEM
 				}
 			}
-
 		}
 	}
+	
+	desertinfantry_at5 = {
 
-	desertis5 = {
-
-		deserti = {
-			max_organisation = 5
+		desertinfantry = {
 			acclimatization_hot_climate_gain_factor = 0.20
-
+			defense = 0.02 
+			soft_attack = 0.02
 		}
-
+		
 		path = {
-			leads_to_tech = desertis6
+
+			leads_to_tech = desertinfantry_at6
 			research_cost_coeff = 1
 		}
-
-		research_cost = 2
+		
+		research_cost = 2.0
 		start_year = 1960
 		folder = {
 			name = infantry_folder
@@ -3154,11 +3451,10 @@ technologies = {
 		
 		categories = {
 			infantry_tech
-			deserti_tech
+			r56_desert_infantry_tech
 		}
-		
-		ai_will_do = {
-			factor = 0.7
+				ai_will_do = {
+			factor = 0
 			modifier = {
 				add = 4
 				OR = {
@@ -3172,25 +3468,24 @@ technologies = {
 					tag = YEM
 				}
 			}
-
-		}
+		}	
 	}
+	
+	desertinfantry_at6 = {
 
-	desertis6 = {
-
-		deserti = {
-			max_organisation = 5
-			soft_attack = 0.05
+		desertinfantry = {
 			acclimatization_hot_climate_gain_factor = 0.20
-
+			defense = 0.02 
+			soft_attack = 0.02
 		}
-
+		
 		path = {
-			leads_to_tech = desertis7
+
+			leads_to_tech = desertinfantry_at7
 			research_cost_coeff = 1
 		}
 
-		research_cost = 2
+		research_cost = 2.0
 		start_year = 1970
 		folder = {
 			name = infantry_folder
@@ -3199,11 +3494,10 @@ technologies = {
 		
 		categories = {
 			infantry_tech
-			deserti_tech
+			r56_desert_infantry_tech
 		}
-		
 		ai_will_do = {
-			factor = 0.7
+			factor = 0
 			modifier = {
 				add = 4
 				OR = {
@@ -3217,17 +3511,18 @@ technologies = {
 					tag = YEM
 				}
 			}
-
-		}
+		}		
 	}
 
-	desertis7 = {
+	desertinfantry_at7 = {
 
-		deserti = {
-			max_organisation = 5
+		desertinfantry = {
+			acclimatization_hot_climate_gain_factor = 0.20
+			defense = 0.02 
+			soft_attack = 0.02
 		}
-
-		research_cost = 2
+		
+		research_cost = 2.0
 		start_year = 1980
 		folder = {
 			name = infantry_folder
@@ -3236,11 +3531,10 @@ technologies = {
 		
 		categories = {
 			infantry_tech
-			deserti_tech
+			r56_desert_infantry_tech
 		}
-		
 		ai_will_do = {
-			factor = 0.7
+			factor = 0
 			modifier = {
 				add = 4
 				OR = {
@@ -3254,35 +3548,44 @@ technologies = {
 					tag = YEM
 				}
 			}
-
-		}
+		}		
 	}
 
-	shocks = {
+	shocktroops = {
 
 		enable_subunits = {
-			shock
+			shocktroop
 		}
-		on_research_complete_limit = {
-				NOT = {
-					has_template_containing_unit = shock
-				}
-			}
-		on_research_complete = {
-			
-			hidden_effect = {
-				load_oob = "unlock_shock"
-			}
-			custom_effect_tooltip = UNLOCK_DIVISION_TEMPLATE
+
+		enable_subunits = {
+			mot_shocktroop
 		}
 		
+		enable_subunits = {
+			mech_shocktroop
+		}
+		
+		on_research_complete_limit = {
+			NOT = {
+				has_template_containing_unit = shocktroop
+			}
+		}
+		on_research_complete = {	
+			hidden_effect = {
+				load_oob = "unlock_shocktroop"
+			}			
+			custom_effect_tooltip = UNLOCK_DIVISION_TEMPLATE
+		}
+
 		path = {
-			leads_to_tech = shocks2
+			leads_to_tech = shocktroops2
 			research_cost_coeff = 1
 		}
 
 		research_cost = 2
+		
 		start_year = 1936
+		
 		folder = {
 			name = infantry_folder
 			position = { x = 11 y = @1936 }
@@ -3290,28 +3593,38 @@ technologies = {
 		
 		categories = {
 			infantry_tech
-			shock_tech
-			cat_special_forces_generic
+			r56_shock_infantry_tech
 		}
+
 		
 		ai_will_do = {
-			factor = 0.7
+			factor = 0.3
 		}
 	}
+	
+	shocktroops2 = {
 
-	shocks2 = {
-
-		shock = {
+		shocktroop = {
 			max_organisation = 5
 			soft_attack = 0.05
 		}
 
-		path = {
-			leads_to_tech = shocks3
-			research_cost_coeff = 1
+		mot_shocktroop = {
+			max_organisation = 2
+			soft_attack = 0.03
+		}
+		
+		mech_shocktroop = {
+			max_organisation = 2
+			soft_attack = 0.03
 		}
 
-		research_cost = 2
+		path = {
+			leads_to_tech = shocktroops3
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1.5
 		start_year = 1939
 		folder = {
 			name = infantry_folder
@@ -3320,26 +3633,33 @@ technologies = {
 		
 		categories = {
 			infantry_tech
-			shock_tech
+			r56_shock_infantry_tech
 		}
-		
 		ai_will_do = {
-			factor = 0.7
+			factor = 0.3
 		}
 	}
+	
+	shocktroops3 = {
 
-	shocks3 = {
-
-		shock = {
+		shocktroop = {
 			max_organisation = 5
 		}
 
+		mot_shocktroop = {
+			max_organisation = 2
+		}
+		
+		mech_shocktroop = {
+			max_organisation = 2
+		}
+		
 		path = {
-			leads_to_tech = shocks4
+			leads_to_tech = shocktroops4
 			research_cost_coeff = 1
 		}
 
-		research_cost = 2
+		research_cost = 2.0
 		start_year = 1943
 		folder = {
 			name = infantry_folder
@@ -3348,27 +3668,33 @@ technologies = {
 		
 		categories = {
 			infantry_tech
-			shock_tech
+			r56_shock_infantry_tech
 		}
-		
 		ai_will_do = {
-			factor = 0.7
+			factor = 0.3
 		}
 	}
+	
+	shocktroops4 = {
 
-	shocks4 = {
-
-		shock = {
+		shocktroop = {
 			max_organisation = 5
-			soft_attack = 0.05
 		}
 
+		mot_shocktroop = {
+			max_organisation = 2
+		}
+		
+		mech_shocktroop = {
+			max_organisation = 2
+		}
+		
 		path = {
-			leads_to_tech = shocks5
+			leads_to_tech = shocktroops5
 			research_cost_coeff = 1
 		}
 
-		research_cost = 2
+		research_cost = 2.0
 		start_year = 1950
 		folder = {
 			name = infantry_folder
@@ -3377,26 +3703,33 @@ technologies = {
 		
 		categories = {
 			infantry_tech
-			shock_tech
+			r56_shock_infantry_tech
 		}
-		
 		ai_will_do = {
-			factor = 0.7
+			factor = 0.3
 		}
 	}
+	
+	shocktroops5 = {
 
-	shocks5 = {
-
-		shock = {
+		shocktroop = {
 			max_organisation = 5
 		}
-
+		
+		mot_shocktroop = {
+			max_organisation = 2
+		}
+		
+		mech_shocktroop = {
+			max_organisation = 2
+		}
+		
 		path = {
-			leads_to_tech = shocks6
+			leads_to_tech = shocktroops6
 			research_cost_coeff = 1
 		}
 
-		research_cost = 2
+		research_cost = 2.0
 		start_year = 1960
 		folder = {
 			name = infantry_folder
@@ -3405,27 +3738,33 @@ technologies = {
 		
 		categories = {
 			infantry_tech
-			shock_tech
 		}
-		
+
 		ai_will_do = {
-			factor = 0.7
+			factor = 0.3
 		}
 	}
+	
+	shocktroops6 = {
 
-	shocks6 = {
-
-		shock = {
+		shocktroop = {
 			max_organisation = 5
-			soft_attack = 0.05
 		}
 
+		mot_shocktroop = {
+			max_organisation = 2
+		}
+		
+		mech_shocktroop = {
+			max_organisation = 2
+		}		
+
 		path = {
-			leads_to_tech = shocks7
+			leads_to_tech = shocktroops7
 			research_cost_coeff = 1
 		}
 
-		research_cost = 2
+		research_cost = 2.0
 		start_year = 1970
 		folder = {
 			name = infantry_folder
@@ -3433,21 +3772,34 @@ technologies = {
 		}
 		
 		categories = {
-			infantry_tech
-			shock_tech
+			r56_shock_infantry_tech
 		}
-		
+
 		ai_will_do = {
-			factor = 0.7
+			factor = 0.3
 		}
 	}
 
-	shocks7 = {
+	shocktroops7 = {
 
-		shock = {
+		shocktroop = {
 			max_organisation = 5
 		}
-		research_cost = 2
+
+		mot_shocktroop = {
+			max_organisation = 2
+		}
+		
+		mech_shocktroop = {
+			max_organisation = 2
+		}		
+
+		path = {
+			leads_to_tech = shocktroops7
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2.0
 		start_year = 1980
 		folder = {
 			name = infantry_folder
@@ -3455,12 +3807,11 @@ technologies = {
 		}
 		
 		categories = {
-			infantry_tech
-			shock_tech
+			r56_shock_infantry_tech
 		}
-		
+
 		ai_will_do = {
-			factor = 0.7
+			factor = 0.3
 		}
 	}
 
@@ -4204,6 +4555,28 @@ technologies = {
 			defense = 0.03
 			breakthrough = 0.03
 		}
+
+###------> Jaeger   <><> <><> <><> <><> <><>
+
+		jaeger = {
+			defense = 0.03
+			breakthrough = 0.03
+		}
+		jungletroop = {
+			defense = 0.03
+			breakthrough = 0.03
+		}
+		desertinfantry = {
+			defense = 0.03
+			breakthrough = 0.03
+		}
+		shocktroop = {
+			defense = 0.03
+			breakthrough = 0.03
+		}
+		
+###------> Jaeger   <><> <><> <><> <><> <><>
+
 		motorized = {
 			defense = 0.05
 			breakthrough = 0.05
@@ -4212,11 +4585,18 @@ technologies = {
 			defense = 0.05
 			breakthrough = 0.05
 		}
-		amphibious_mechanized = {
+		mot_shocktroop = {
 			defense = 0.05
 			breakthrough = 0.05
 		}
-		
+		mech_shocktroop = {
+			defense = 0.05
+			breakthrough = 0.05
+		}
+		amphibious_mechanized = {
+			defense = 0.05
+			breakthrough = 0.05
+		}		
 		path = {
 			leads_to_tech = support_weapons2
 			research_cost_coeff = 1
@@ -4295,11 +4675,40 @@ technologies = {
 			defense = 0.03
 			breakthrough = 0.03
 		}
+###------> Jaeger   <><> <><> <><> <><> <><>
+
+		jaeger = {
+			defense = 0.03
+			breakthrough = 0.03
+		}
+		jungletroop = {
+			defense = 0.03
+			breakthrough = 0.03
+		}
+		desertinfantry = {
+			defense = 0.03
+			breakthrough = 0.03
+		}
+		shocktroop = {
+			defense = 0.03
+			breakthrough = 0.03
+		}
+		
+###------> Jaeger   <><> <><> <><> <><> <><>
+
 		motorized = {
 			defense = 0.05
 			breakthrough = 0.05
 		}
 		mechanized = {
+			defense = 0.05
+			breakthrough = 0.05
+		}
+		mot_shocktroop = {
+			defense = 0.05
+			breakthrough = 0.05
+		}
+		mech_shocktroop = {
 			defense = 0.05
 			breakthrough = 0.05
 		}
@@ -4392,6 +4801,27 @@ technologies = {
 			defense = 0.03
 			breakthrough = 0.03
 		}
+###------> Jaeger   <><> <><> <><> <><> <><>
+
+		jaeger = {
+			defense = 0.03
+			breakthrough = 0.03
+		}
+		jungletroop = {
+			defense = 0.03
+			breakthrough = 0.03
+		}
+		desertinfantry = {
+			defense = 0.03
+			breakthrough = 0.03
+		}
+		shocktroop = {
+			defense = 0.03
+			breakthrough = 0.03
+		}
+		
+###------> Jaeger   <><> <><> <><> <><> <><>
+
 		motorized = {
 			defense = 0.05
 			breakthrough = 0.05
@@ -4400,11 +4830,18 @@ technologies = {
 			defense = 0.05
 			breakthrough = 0.05
 		}
-		amphibious_mechanized = {
+		mot_shocktroop = {
 			defense = 0.05
 			breakthrough = 0.05
 		}
-		
+		mech_shocktroop = {
+			defense = 0.05
+			breakthrough = 0.05
+		}
+		amphibious_mechanized = {
+			defense = 0.05
+			breakthrough = 0.05
+		}		
 		path = {
 			leads_to_tech = support_weapons4
 			research_cost_coeff = 1
@@ -4476,6 +4913,27 @@ technologies = {
 			defense = 0.03
 			breakthrough = 0.03
 		}
+###------> Jaeger   <><> <><> <><> <><> <><>
+
+		jaeger = {
+			defense = 0.03
+			breakthrough = 0.03
+		}
+		jungletroop = {
+			defense = 0.03
+			breakthrough = 0.03
+		}
+		desertinfantry = {
+			defense = 0.03
+			breakthrough = 0.03
+		}
+		shocktroop = {
+			defense = 0.03
+			breakthrough = 0.03
+		}
+		
+###------> Jaeger   <><> <><> <><> <><> <><>
+
 		motorized = {
 			defense = 0.05
 			breakthrough = 0.05
@@ -4484,11 +4942,18 @@ technologies = {
 			defense = 0.05
 			breakthrough = 0.05
 		}
+		mot_shocktroop = {
+			defense = 0.05
+			breakthrough = 0.05
+		}
+		mech_shocktroop = {
+			defense = 0.05
+			breakthrough = 0.05
+		}
 		amphibious_mechanized = {
 			defense = 0.05
 			breakthrough = 0.05
 		}
-		
 		research_cost = 1.5
 		start_year = 1942
 		folder = {
@@ -4558,11 +5023,40 @@ technologies = {
 			defense = 0.03
 			breakthrough = 0.03
 		}
+###------> Jaeger   <><> <><> <><> <><> <><>
+
+		jaeger = {
+			defense = 0.03
+			breakthrough = 0.03
+		}
+		jungletroop = {
+			defense = 0.03
+			breakthrough = 0.03
+		}
+		desertinfantry = {
+			defense = 0.03
+			breakthrough = 0.03
+		}
+		shocktroop = {
+			defense = 0.03
+			breakthrough = 0.03
+		}
+		
+###------> Jaeger   <><> <><> <><> <><> <><>
+
 		motorized = {
 			defense = 0.05
 			breakthrough = 0.05
 		}
 		mechanized = {
+			defense = 0.05
+			breakthrough = 0.05
+		}
+		mot_shocktroop = {
+			defense = 0.05
+			breakthrough = 0.05
+		}
+		mech_shocktroop = {
 			defense = 0.05
 			breakthrough = 0.05
 		}
@@ -4644,11 +5138,40 @@ technologies = {
 			defense = 0.03
 			breakthrough = 0.03
 		}
+###------> Jaeger   <><> <><> <><> <><> <><>
+
+		jaeger = {
+			defense = 0.03
+			breakthrough = 0.03
+		}
+		jungletroop = {
+			defense = 0.03
+			breakthrough = 0.03
+		}
+		desertinfantry = {
+			defense = 0.03
+			breakthrough = 0.03
+		}
+		shocktroop = {
+			defense = 0.03
+			breakthrough = 0.03
+		}
+		
+###------> Jaeger   <><> <><> <><> <><> <><>
+
 		motorized = {
 			defense = 0.05
 			breakthrough = 0.05
 		}
 		mechanized = {
+			defense = 0.05
+			breakthrough = 0.05
+		}
+		mot_shocktroop = {
+			defense = 0.05
+			breakthrough = 0.05
+		}
+		mech_shocktroop = {
 			defense = 0.05
 			breakthrough = 0.05
 		}
@@ -4730,11 +5253,40 @@ technologies = {
 			defense = 0.03
 			breakthrough = 0.03
 		}
+###------> Jaeger   <><> <><> <><> <><> <><>
+
+		jaeger = {
+			defense = 0.03
+			breakthrough = 0.03
+		}
+		jungletroop = {
+			defense = 0.03
+			breakthrough = 0.03
+		}
+		desertinfantry = {
+			defense = 0.03
+			breakthrough = 0.03
+		}
+		shocktroop = {
+			defense = 0.03
+			breakthrough = 0.03
+		}
+		
+###------> Jaeger   <><> <><> <><> <><> <><>
+
 		motorized = {
 			defense = 0.05
 			breakthrough = 0.05
 		}
 		mechanized = {
+			defense = 0.05
+			breakthrough = 0.05
+		}
+		mot_shocktroop = {
+			defense = 0.05
+			breakthrough = 0.05
+		}
+		mech_shocktroop = {
 			defense = 0.05
 			breakthrough = 0.05
 		}
@@ -4816,11 +5368,40 @@ technologies = {
 			defense = 0.03
 			breakthrough = 0.03
 		}
+###------> Jaeger   <><> <><> <><> <><> <><>
+
+		jaeger = {
+			defense = 0.03
+			breakthrough = 0.03
+		}
+		jungletroop = {
+			defense = 0.03
+			breakthrough = 0.03
+		}
+		desertinfantry = {
+			defense = 0.03
+			breakthrough = 0.03
+		}
+		shocktroop = {
+			defense = 0.03
+			breakthrough = 0.03
+		}
+		
+###------> Jaeger   <><> <><> <><> <><> <><>
+
 		motorized = {
 			defense = 0.05
 			breakthrough = 0.05
 		}
 		mechanized = {
+			defense = 0.05
+			breakthrough = 0.05
+		}
+		mot_shocktroop = {
+			defense = 0.05
+			breakthrough = 0.05
+		}
+		mech_shocktroop = {
 			defense = 0.05
 			breakthrough = 0.05
 		}
@@ -4901,11 +5482,40 @@ technologies = {
 			defense = 0.03
 			breakthrough = 0.03
 		}
+###------> Jaeger   <><> <><> <><> <><> <><>
+
+		jaeger = {
+			defense = 0.03
+			breakthrough = 0.03
+		}
+		jungletroop = {
+			defense = 0.03
+			breakthrough = 0.03
+		}
+		desertinfantry = {
+			defense = 0.03
+			breakthrough = 0.03
+		}
+		shocktroop = {
+			defense = 0.03
+			breakthrough = 0.03
+		}
+		
+###------> Jaeger   <><> <><> <><> <><> <><>
+
 		motorized = {
 			defense = 0.05
 			breakthrough = 0.05
 		}
 		mechanized = {
+			defense = 0.05
+			breakthrough = 0.05
+		}
+		mot_shocktroop = {
+			defense = 0.05
+			breakthrough = 0.05
+		}
+		mech_shocktroop = {
 			defense = 0.05
 			breakthrough = 0.05
 		}
