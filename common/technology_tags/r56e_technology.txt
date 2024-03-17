@@ -1,0 +1,26 @@
+#####-----------------------------------------------------------> Mod by Sig "Greatexperiment" Altre
+
+technology_categories = {
+	r56_desert_infantry_tech
+	r56_jaeger_infantry_tech
+	r56_jungle_infantry_tech
+	r56_marines_infantry_tech
+	r56_mountain_infantry_tech
+	r56_paratroops_infantry_tech
+	r56_special_forces_training_tech
+	r56_shock_infantry_tech
+	cat_r56_guerilla_warfare
+	camo_tech
+	summer_clothing_tech
+	winter_clothing_tech
+	steel_tech
+	metallurgy_tech
+	aluminium_tech
+	railway_construction_tech
+}
+
+technology_folders = {
+	
+}
+
+#####-----------------------------------------------------------> End

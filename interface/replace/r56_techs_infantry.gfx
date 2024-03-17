@@ -1,0 +1,62 @@
+#####-----> Mod by Sig "GreatExperiment" Altre
+####-----> Reorganized by Pordy <><> <><> <><>
+#-----> Re-Reorganized by Abbus <><> <><> <><>
+#---> Hi - SpicyAlfredo <><> <><> <><>
+spriteTypes = {
+
+###---> Special forces <><> <><> <><>
+#-> Marines <><>
+	SpriteType = { name = "GFX_marines4_medium" texturefile = "gfx/interface/technologies/infantry/special_forces/r56_tech_marines_04.dds" }
+	SpriteType = { name = "GFX_marines5_medium" texturefile = "gfx/interface/technologies/infantry/special_forces/r56_tech_marines_05.dds" }
+	SpriteType = { name = "GFX_marines6_medium" texturefile = "gfx/interface/technologies/infantry/special_forces/r56_tech_marines_06.dds" }
+
+#-> Mountainers <><>
+	SpriteType = { name = "GFX_tech_mountaineers4_medium" texturefile = "gfx/interface/technologies/infantry/special_forces/r56_tech_mountaineers_04.dds" }
+	SpriteType = { name = "GFX_tech_mountaineers5_medium" texturefile = "gfx/interface/technologies/infantry/special_forces/r56_tech_mountaineers_05.dds" }
+	SpriteType = { name = "GFX_tech_mountaineers6_medium" texturefile = "gfx/interface/technologies/infantry/special_forces/r56_tech_mountaineers_06.dds" }
+
+#-> Paratroopers <><>
+	SpriteType = { name = "GFX_paratroopers4_medium" texturefile = "gfx/interface/technologies/infantry/special_forces/r56_tech_paratroopers_04.dds" }
+	SpriteType = { name = "GFX_paratroopers5_medium" texturefile = "gfx/interface/technologies/infantry/special_forces/r56_tech_paratroopers_05.dds" }
+	SpriteType = { name = "GFX_paratroopers6_medium" texturefile = "gfx/interface/technologies/infantry/special_forces/r56_tech_paratroopers_06.dds" }
+
+#-> Jaegers <><>
+	SpriteType = { name = "GFX_jaegers_medium" texturefile = "gfx/interface/technologies/infantry/special_forces/r56_tech_jaegers_01.dds" }
+	SpriteType = { name = "GFX_jaegers2_medium" texturefile = "gfx/interface/technologies/infantry/special_forces/r56_tech_jaegers_02.dds" }
+	SpriteType = { name = "GFX_jaegers3_medium" texturefile = "gfx/interface/technologies/infantry/special_forces/r56_tech_jaegers_03.dds" }
+	SpriteType = { name = "GFX_jaegers4_medium" texturefile = "gfx/interface/technologies/infantry/special_forces/r56_tech_jaegers_04.dds" }
+	SpriteType = { name = "GFX_jaegers5_medium" texturefile = "gfx/interface/technologies/infantry/special_forces/r56_tech_jaegers_05.dds" }
+	SpriteType = { name = "GFX_jaegers6_medium" texturefile = "gfx/interface/technologies/infantry/special_forces/r56_tech_jaegers_06.dds" }
+	SpriteType = { name = "GFX_jaegers7_medium" texturefile = "gfx/interface/technologies/infantry/special_forces/r56_tech_jaegers_07.dds" }
+
+#-> Jungle specialist <><>
+	SpriteType = { name = "GFX_jungletroops_medium" texturefile = "gfx/interface/technologies/infantry/special_forces/r56_tech_jungletroops_01.dds" }
+	SpriteType = { name = "GFX_jungletroops2_medium" texturefile = "gfx/interface/technologies/infantry/special_forces/r56_tech_jungletroops_02.dds" }
+	SpriteType = { name = "GFX_jungletroops3_medium" texturefile = "gfx/interface/technologies/infantry/special_forces/r56_tech_jungletroops_03.dds" }
+	SpriteType = { name = "GFX_jungletroops4_medium" texturefile = "gfx/interface/technologies/infantry/special_forces/r56_tech_jungletroops_04.dds" }
+	SpriteType = { name = "GFX_jungletroops5_medium" texturefile = "gfx/interface/technologies/infantry/special_forces/r56_tech_jungletroops_05.dds" }
+	SpriteType = { name = "GFX_jungletroops6_medium" texturefile = "gfx/interface/technologies/infantry/special_forces/r56_tech_jungletroops_06.dds" }
+	SpriteType = { name = "GFX_jungletroops7_medium" texturefile = "gfx/interface/technologies/infantry/special_forces/r56_tech_jungletroops_07.dds" }
+
+#-> Desert infantry <><>
+	SpriteType = { name = "GFX_desertinfantry_at_medium" texturefile = "gfx/interface/technologies/infantry/special_forces/r56_tech_desertinfantry_01.dds" }
+	SpriteType = { name = "GFX_desertinfantry_at2_medium" texturefile = "gfx/interface/technologies/infantry/special_forces/r56_tech_desertinfantry_02.dds" }
+	SpriteType = { name = "GFX_desertinfantry_at3_medium" texturefile = "gfx/interface/technologies/infantry/special_forces/r56_tech_desertinfantry_03.dds" }
+	SpriteType = { name = "GFX_desertinfantry_at4_medium" texturefile = "gfx/interface/technologies/infantry/special_forces/r56_tech_desertinfantry_04.dds" }
+	SpriteType = { name = "GFX_desertinfantry_at5_medium" texturefile = "gfx/interface/technologies/infantry/special_forces/r56_tech_desertinfantry_05.dds" }
+	SpriteType = { name = "GFX_desertinfantry_at6_medium" texturefile = "gfx/interface/technologies/infantry/special_forces/r56_tech_desertinfantry_06.dds" }
+	SpriteType = { name = "GFX_desertinfantry_at7_medium" texturefile = "gfx/interface/technologies/infantry/special_forces/r56_tech_desertinfantry_07.dds" }
+
+#-> Shock troops <><>
+	SpriteType = { name = "GFX_shocktroops_medium" texturefile = "gfx/interface/technologies/infantry/special_forces/r56_tech_shocktroops_01.dds" }
+	SpriteType = { name = "GFX_shocktroops2_medium" texturefile = "gfx/interface/technologies/infantry/special_forces/r56_tech_shocktroops_02.dds" }
+	SpriteType = { name = "GFX_shocktroops3_medium" texturefile = "gfx/interface/technologies/infantry/special_forces/r56_tech_shocktroops_03.dds" }
+	SpriteType = { name = "GFX_shocktroops4_medium" texturefile = "gfx/interface/technologies/infantry/special_forces/r56_tech_shocktroops_04.dds" }
+	SpriteType = { name = "GFX_shocktroops5_medium" texturefile = "gfx/interface/technologies/infantry/special_forces/r56_tech_shocktroops_05.dds" }
+	SpriteType = { name = "GFX_shocktroops6_medium" texturefile = "gfx/interface/technologies/infantry/special_forces/r56_tech_shocktroops_06.dds" }
+	SpriteType = { name = "GFX_shocktroops7_medium" texturefile = "gfx/interface/technologies/infantry/special_forces/r56_tech_shocktroops_07.dds" }
+
+#-> Elite forces <><>
+	SpriteType = { name = "GFX_elite_forces_02_medium" texturefile = "gfx/interface/technologies/infantry/special_forces/r56_tech_elite_forces_01.dds" }
+	SpriteType = { name = "GFX_elite_forces_03_medium" texturefile = "gfx/interface/technologies/infantry/special_forces/r56_tech_elite_forces_02.dds" }
+}

@@ -1,0 +1,41 @@
+#####-----> Organized by SpicyAlfredo <><> <><> <><>
+
+spriteTypes = {
+	SpriteType = {
+		name = "GFX_r56_flexible_railnetwork_medium"
+		texturefile = "gfx/interface/technologies/r56_vechicles/r56_tech_railnetwork_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_r56_military_railnetwork_medium"
+		texturefile = "gfx/interface/technologies/r56_vechicles/r56_tech_railnetwork_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_r56_modern_military_railnetwork_medium"
+		texturefile = "gfx/interface/technologies/r56_vechicles/r56_tech_railnetwork_3.dds"
+	}
+	SpriteType = {
+		name = "GFX_r56_modern_military_railnetwork_2_medium"
+		texturefile = "gfx/interface/technologies/r56_vechicles/r56_tech_railnetwork_4.dds"
+	}
+	SpriteType = {
+		name = "GFX_r56_combat_service_medium"
+		texturefile = "gfx/interface/technologies/r56_vechicles/r56_tech_combat_service_support.dds"
+	}
+	SpriteType = {
+		name = "GFX_r56_convoy_highways_medium"
+		texturefile = "gfx/interface/technologies/r56_vechicles/r56_tech_convoy_highway_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_r56_convoy_highways_2_medium"
+		texturefile = "gfx/interface/technologies/r56_vechicles/r56_tech_convoy_highway_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_r56_convoy_highways_3_medium"
+		texturefile = "gfx/interface/technologies/r56_vechicles/r56_tech_convoy_highway_3.dds"
+	}
+	SpriteType = {
+		name = "GFX_r56_convoy_highways_4_medium"
+		texturefile = "gfx/interface/technologies/r56_vechicles/r56_tech_convoy_highway_4.dds"
+	}
+}
+
