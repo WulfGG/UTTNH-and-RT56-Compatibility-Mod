@@ -9,6 +9,6 @@ dependencies={
 	"The Road to 56"
 }
 
-name="test patch v0.8"
+name="test mod v0.8"
 supported_version="1.14.*"
 remote_file_id=""
