@@ -1,10 +1,12 @@
-# UTTNH-and-RT56-Compatibility-Mod 
+# UTTNH and RT56 Compatibility Mod 
  
-Compatibility mod to make Ultimate Tech Tree : New Horizon and The Road to 56 work together.
+Compatibility mod to make **[Ultimate Tech Tree : New Horizon](https://steamcommunity.com/sharedfiles/filedetails/?id=2677872257)** and **[The Road to 56](https://steamcommunity.com/sharedfiles/filedetails/?id=820260968)** work together.
 
-This compatibility mod is still in development.
+_This compatibility mod is still in development._
 
 Required:
-- HOI4 Update (v.1.14)
-- Road to 56 (10 Mar. Update)
-- Ultimate Tech Tree : New Horizon (28 Jan. Update)
+- **Hearts of Iron 4** _(v.1.14 Update)_
+- **The Road to 56** _(10 Mar. Update)_
+- **Ultimate Tech Tree : New Horizon** _(28 Jan. Update)_
+
+<sub> I can't upload it on Steam Workshop yet because I don't own the game legitly yet. Maybe I'll buy it in April. :) </sub>
