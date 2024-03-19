@@ -5087,7 +5087,7 @@ guiTypes = {
 			buttonType = {
 				name = "air_bomber_techs_folder_tab"
 				position = { x = 645 y = 0 }
-				quadTextureSprite = "GFX_air_bomber_techs_folder_tab"
+				quadTextureSprite = "GFX_bba_air_special_techs_folder_tab"
 				frame = 1
 				clicksound = click_default
 			}
@@ -5095,7 +5095,7 @@ guiTypes = {
 			buttonType = {
 				name = "bba_air_special_techs_folder_tab"
 				position = { x = 645 y = 0 }
-				quadTextureSprite = "GFX_air_bomber_techs_folder_tab"
+				quadTextureSprite = "GFX_bba_air_special_techs_folder_tab"
 				frame = 1
 				clicksound = click_default
 			}

@@ -1061,6 +1061,12 @@ spriteTypes = {
 		textureFile = "gfx//interface//techtree//special_air_techtree_bg.dds"
 	}
 
+	spriteType = {
+		name = "GFX_bba_air_special_techs_folder_tab"
+		textureFile = "gfx//interface//techtree//techtree_heli_tab.dds"
+		noOfFrames = 2		
+	}
+
 
 	frameAnimatedSpriteType = {
 		name = "GFX_technology_bba_air_special_techs_folder_small_currently_researching_item_bg"
