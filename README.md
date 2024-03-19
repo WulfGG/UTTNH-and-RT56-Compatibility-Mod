@@ -9,4 +9,4 @@ Required:
 - **The Road to 56** _(10 Mar. Update)_
 - **Ultimate Tech Tree : New Horizon** _(28 Jan. Update)_
 
-<sub> I can't upload it on Steam Workshop yet because I don't own the game legitly yet. Maybe I'll buy it in April. :) </sub>
+<sub> I can't upload it on Steam Workshop, because I don't own the game legitly yet. Maybe I'll buy it in April. :) </sub>
