@@ -534,6 +534,7 @@ technologies = {
 		
 		categories = {
 			infantry_weapons
+			anti_tank_infantry_weapons
 		}
 		
 		ai_will_do = {
@@ -577,6 +578,8 @@ technologies = {
 		
 		categories = {
 			infantry_weapons
+			anti_tank_infantry_weapons
+
 		}
 		
 		ai_will_do = {
@@ -620,6 +623,8 @@ technologies = {
 		
 		categories = {
 			infantry_weapons
+			anti_tank_infantry_weapons
+
 		}
 		
 		ai_will_do = {
@@ -663,6 +668,8 @@ technologies = {
 		
 		categories = {
 			infantry_weapons
+			anti_tank_infantry_weapons
+
 		}
 		
 		ai_will_do = {
@@ -711,6 +718,8 @@ technologies = {
 
 		categories = {
 			infantry_weapons
+			anti_tank_infantry_weapons
+
 		}
 
 		ai_will_do = {
@@ -754,6 +763,7 @@ technologies = {
 
 		categories = {
 			infantry_weapons
+
 		}
 
 		ai_will_do = {
@@ -797,6 +807,7 @@ technologies = {
 
 		categories = {
 			infantry_weapons
+
 		}
 
 		ai_will_do = {
@@ -872,6 +883,8 @@ technologies = {
 
 		categories = {
 			infantry_weapons
+			anti_tank_infantry_weapons
+
 		}
 
 		ai_will_do = {
@@ -6240,6 +6253,8 @@ technologies = {
 		categories = {
 			motorized_equipment
 			armor
+			armored_cars_tech
+
 		}
 		
 		ai_will_do = {
@@ -6287,6 +6302,8 @@ technologies = {
 		categories = {
 			motorized_equipment
 			armor
+			armored_cars_tech
+
 		}
 		
 		ai_will_do = {
@@ -6334,6 +6351,8 @@ technologies = {
 		categories = {
 			motorized_equipment
 			armor
+			armored_cars_tech
+
 		}
 		
 		sub_technologies = {
@@ -6385,6 +6404,8 @@ technologies = {
 		categories = {
 			motorized_equipment
 			armor
+			armored_cars_tech
+
 		}
 		
 		ai_will_do = {
@@ -6422,6 +6443,8 @@ technologies = {
 		categories = {
 			motorized_equipment
 			armor
+			armored_cars_tech
+
 		}
 		
 		ai_will_do = {
@@ -6453,6 +6476,8 @@ technologies = {
 		categories = {
 			motorized_equipment
 			armor
+			armored_cars_tech
+
 		}
 		
 		ai_will_do = {
@@ -6482,6 +6507,9 @@ technologies = {
 		categories = {
 			motorized_equipment
 			armor
+			armored_cars_tech
+			armor_variant_tech
+
 		}
 
 		ai_will_do = {

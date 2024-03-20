@@ -519,6 +519,8 @@ technologies = {
 			naval_equipment
 			dd_tech
 			asw_tech
+			mio_cat_tech_all_screen_ship_and_modules
+			mio_cat_tech_all_destroyer_and_modules
 		}
 	}
 	improved_depth_charges = {
@@ -561,6 +563,8 @@ technologies = {
 			naval_equipment
 			dd_tech
 			asw_tech
+			mio_cat_tech_all_screen_ship_and_modules
+			mio_cat_tech_all_destroyer_and_modules
 		}
 	}
 	advanced_depth_charges = {
@@ -605,6 +609,8 @@ technologies = {
 			naval_equipment
 			dd_tech
 			asw_tech
+			mio_cat_tech_all_screen_ship_and_modules
+			mio_cat_tech_all_destroyer_and_modules
 		}
 	}
 	modern_depth_charges = {
@@ -650,6 +656,8 @@ technologies = {
 			naval_equipment
 			dd_tech
 			asw_tech
+			mio_cat_tech_all_screen_ship_and_modules
+			mio_cat_tech_all_destroyer_and_modules
 		}
 	}
 	depth_charges_5 = {
@@ -696,6 +704,8 @@ technologies = {
 			naval_equipment
 			dd_tech
 			asw_tech
+			mio_cat_tech_all_screen_ship_and_modules
+			mio_cat_tech_all_destroyer_and_modules
 		}
 	}
 	
@@ -744,6 +754,8 @@ technologies = {
 			naval_equipment
 			dd_tech
 			asw_tech
+			mio_cat_tech_all_screen_ship_and_modules
+			mio_cat_tech_all_destroyer_and_modules
 		}
 	}
 	
@@ -791,6 +803,8 @@ technologies = {
 			naval_equipment
 			dd_tech
 			asw_tech
+			mio_cat_tech_all_screen_ship_and_modules
+			mio_cat_tech_all_destroyer_and_modules
 		}
 	}
 	depth_charges_8 = {
@@ -837,6 +851,8 @@ technologies = {
 			naval_equipment
 			dd_tech
 			asw_tech
+			mio_cat_tech_all_screen_ship_and_modules
+			mio_cat_tech_all_destroyer_and_modules
 		}
 	}
 	depth_charges_9 = {
@@ -876,6 +892,8 @@ technologies = {
 			naval_equipment
 			dd_tech
 			asw_tech
+			mio_cat_tech_all_screen_ship_and_modules
+			mio_cat_tech_all_destroyer_and_modules
 		}
 	}
 	sonar = {
@@ -915,6 +933,8 @@ technologies = {
 			naval_equipment
 			dd_tech
 			asw_tech
+			mio_cat_tech_all_screen_ship_and_modules
+			mio_cat_tech_all_destroyer_and_modules
 		}
 	}
 
@@ -951,6 +971,8 @@ technologies = {
 			naval_equipment
 			dd_tech
 			asw_tech
+			mio_cat_tech_all_screen_ship_and_modules
+			mio_cat_tech_all_destroyer_and_modules
 		}
 	}
 

@@ -813,6 +813,8 @@ technologies = {
 		categories = {
 			industry
 			synth_resources
+			refining_tech
+
 		}
 		
 		ai_will_do = {
@@ -903,6 +905,8 @@ technologies = {
 		categories = {
 			industry
 			synth_resources
+			refining_tech
+
 		}
 		
 		ai_will_do = {
@@ -968,6 +972,8 @@ technologies = {
 		categories = {
 			industry
 			synth_resources
+			refining_tech
+
 		}
 		
 		ai_will_do = {
@@ -1026,6 +1032,8 @@ technologies = {
 		categories = {
 			industry
 			synth_resources
+			refining_tech
+
 		}
 		
 		ai_will_do = {
@@ -1075,6 +1083,8 @@ technologies = {
 		categories = {
 			industry
 			synth_resources
+			refining_tech
+
 		}
 		
 		ai_will_do = {
@@ -1120,6 +1130,8 @@ technologies = {
 		categories = {
 			industry
 			synth_resources
+			refining_tech
+
 		}
 		
 		ai_will_do = {

@@ -50,6 +50,7 @@ technologies = {
 		categories = {
 			artillery
 			mio_cat_all_artillery_equipment
+			standard_artillery_tech
 		}
 		
 		ai_will_do = {
@@ -108,6 +109,7 @@ technologies = {
 		
 		categories = {
 			artillery
+			standard_artillery_tech
 			mio_cat_all_artillery_equipment
 		}
 		
@@ -165,6 +167,7 @@ technologies = {
 		
 		categories = {
 			artillery
+			standard_artillery_tech
 			mio_cat_all_artillery_equipment
 		}
 		
@@ -236,6 +239,7 @@ technologies = {
 		
 		categories = {
 			artillery
+			standard_artillery_tech
 			mio_cat_all_artillery_equipment
 		}
 		
@@ -305,6 +309,7 @@ technologies = {
 		
 		categories = {
 			artillery
+			standard_artillery_tech
 			mio_cat_all_artillery_equipment
 		}
 		
@@ -356,6 +361,7 @@ technologies = {
 		
 		categories = {
 			artillery
+			standard_artillery_tech
 			mio_cat_all_artillery_equipment
 		}
 		
@@ -426,6 +432,7 @@ technologies = {
 		
 		categories = {
 			artillery
+			standard_artillery_tech
 			mio_cat_all_artillery_equipment
 		}
 		
@@ -473,6 +480,7 @@ technologies = {
 		
 		categories = {
 			artillery
+			standard_artillery_tech
 			mio_cat_all_artillery_equipment
 		}
 		
@@ -541,6 +549,7 @@ technologies = {
 		
 		categories = {
 			artillery
+			standard_artillery_tech
 			mio_cat_all_artillery_equipment
 		}
 		
@@ -582,6 +591,7 @@ technologies = {
 		
 		categories = {
 			artillery
+			standard_artillery_tech
 			mio_cat_all_artillery_equipment
 		}
 		
@@ -650,6 +660,7 @@ technologies = {
 		
 		categories = {
 			artillery
+			standard_artillery_tech
 			mio_cat_all_artillery_equipment
 		}
 		
@@ -686,6 +697,7 @@ technologies = {
 		
 		categories = {
 			artillery
+			standard_artillery_tech
 			mio_cat_all_artillery_equipment
 		}
 		
@@ -1145,6 +1157,8 @@ technologies = {
 		
 		categories = {
 			artillery
+			anti_air_tech
+			cat_anti_air
 			mio_cat_all_artillery_equipment
 		}
 	}
@@ -1196,6 +1210,8 @@ technologies = {
 		
 		categories = {
 			artillery
+			anti_air_tech
+			cat_anti_air
 			mio_cat_all_artillery_equipment
 		}
 	}
@@ -1248,6 +1264,8 @@ technologies = {
 		
 		categories = {
 			artillery
+			anti_air_tech
+			cat_anti_air
 			mio_cat_all_artillery_equipment
 		}
 	}
@@ -1299,6 +1317,8 @@ technologies = {
 		
 		categories = {
 			artillery
+			anti_air_tech
+			cat_anti_air
 			mio_cat_all_artillery_equipment
 		}
 	}
@@ -1350,6 +1370,8 @@ technologies = {
 		
 		categories = {
 			artillery
+			anti_air_tech
+			cat_anti_air
 			mio_cat_all_artillery_equipment
 		}
 	}
@@ -1400,6 +1422,8 @@ technologies = {
 		
 		categories = {
 			artillery
+			anti_air_tech
+			cat_anti_air
 			mio_cat_all_artillery_equipment
 		}
 	}
@@ -1447,6 +1471,8 @@ technologies = {
 		
 		categories = {
 			artillery
+			anti_air_tech
+			cat_anti_air
 			mio_cat_all_artillery_equipment
 		}
 	}
@@ -1493,6 +1519,8 @@ technologies = {
 		
 		categories = {
 			artillery
+			anti_air_tech
+			cat_anti_air
 			mio_cat_all_artillery_equipment
 		}
 	}
@@ -1538,6 +1566,8 @@ technologies = {
 		
 		categories = {
 			artillery
+			anti_air_tech
+			cat_anti_air
 			mio_cat_all_artillery_equipment
 		}
 	}
@@ -1584,6 +1614,8 @@ technologies = {
 		
 		categories = {
 			artillery
+			anti_air_tech
+			cat_anti_air
 			mio_cat_all_artillery_equipment
 		}
 	}
@@ -1625,6 +1657,8 @@ technologies = {
 		
 		categories = {
 			artillery
+			anti_air_tech
+			cat_anti_air
 			mio_cat_all_artillery_equipment
 		}
 	}

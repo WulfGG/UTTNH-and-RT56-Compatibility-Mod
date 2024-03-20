@@ -216,6 +216,7 @@ technologies = {
 		
 		categories = {
 			armor
+			armor_variant_tech
 		}
 	}
 	
@@ -246,6 +247,8 @@ technologies = {
 		
 		categories = {
 			armor
+			armor_variant_tech
+
 		}
 	}
 	
@@ -276,6 +279,8 @@ technologies = {
 		
 		categories = {
 			armor
+			armor_variant_tech
+
 		}
 	}
 
@@ -402,6 +407,8 @@ technologies = {
 		
 		categories = {
 			armor
+			armor_variant_tech
+
 		}
 	}
 	
@@ -434,6 +441,8 @@ technologies = {
 		
 		categories = {
 			armor
+			armor_variant_tech
+
 		}
 	}
 	
@@ -461,6 +470,8 @@ technologies = {
 		
 		categories = {
 			armor
+			armor_variant_tech
+
 		}
 	}
 
@@ -498,6 +509,7 @@ technologies = {
 		categories = {
 			armor
 			tp_tech
+			amphibious_armor_tech
 		}
 	}
 
@@ -527,6 +539,7 @@ technologies = {
 		categories = {
 			armor
 			tp_tech
+			amphibious_armor_tech
 		}
 	}
 
@@ -554,6 +567,7 @@ technologies = {
 		categories = {
 			armor
 			tp_tech
+			amphibious_armor_tech
 		}
 	}
 	amphibious_tank_4 = { #PT-76
@@ -580,6 +594,7 @@ technologies = {
 		categories = {
 			armor
 			tp_tech
+			amphibious_armor_tech
 		}
 	}
 	amphibious_tank_5 = { #PT-76
@@ -606,6 +621,7 @@ technologies = {
 		categories = {
 			armor
 			tp_tech
+			amphibious_armor_tech
 		}
 	}
 	amphibious_tank_6 = { #PT-76
@@ -629,6 +645,7 @@ technologies = {
 		categories = {
 			armor
 			tp_tech
+			amphibious_armor_tech
 		}
 	}
 	
@@ -881,6 +898,7 @@ technologies = {
 		
 		categories = {
 			armor
+			armor_variant_tech
 		}
 	}
 	
@@ -901,6 +919,7 @@ technologies = {
 		
 		categories = {
 			armor
+			armor_variant_tech
 		}
 	}
 	
@@ -919,6 +938,7 @@ technologies = {
 		
 		categories = {
 			armor
+			armor_variant_tech
 		}
 	}
 	
@@ -1058,6 +1078,7 @@ technologies = {
 		
 		categories = {
 			armor
+			armor_variant_tech
 		}
 	}
 	
@@ -1106,6 +1127,7 @@ technologies = {
 		
 		categories = {
 			armor
+			armor_variant_tech
 		}
 	}
 	
@@ -1139,6 +1161,7 @@ technologies = {
 		
 		categories = {
 			armor
+			armor_variant_tech
 		}
 	}
 	
@@ -1282,6 +1305,7 @@ technologies = {
 		
 		categories = {
 			armor
+			armor_variant_tech
 		}
 	}
 	
@@ -1329,6 +1353,7 @@ technologies = {
 		
 		categories = {
 			armor
+			armor_variant_tech
 		}
 	}
 	
@@ -1362,6 +1387,7 @@ technologies = {
 		
 		categories = {
 			armor
+			armor_variant_tech
 		}
 	}
 	
@@ -1483,6 +1509,7 @@ technologies = {
 		
 		categories = {
 			armor
+			armor_variant_tech
 		}
 	}
 	
@@ -1531,6 +1558,7 @@ technologies = {
 		
 		categories = {
 			armor
+			armor_variant_tech
 		}
 	}
 	
@@ -1560,6 +1588,7 @@ technologies = {
 		
 		categories = {
 			armor
+			armor_variant_tech
 		}
 	}
 	
@@ -1646,6 +1675,7 @@ technologies = {
 		
 		categories = {
 			armor
+			armor_variant_tech
 		}
 	}
 	
@@ -1681,6 +1711,7 @@ technologies = {
 		
 		categories = {
 			armor
+			armor_variant_tech
 		}
 	}
 	
@@ -1699,6 +1730,7 @@ technologies = {
 		
 		categories = {
 			armor
+			armor_variant_tech
 		}
 	}
 	
@@ -1785,6 +1817,7 @@ technologies = {
 		
 		categories = {
 			armor
+			armor_variant_tech
 		}
 	}
 	
@@ -1820,6 +1853,7 @@ technologies = {
 		
 		categories = {
 			armor
+			armor_variant_tech
 		}
 	}
 	
@@ -1838,6 +1872,7 @@ technologies = {
 		
 		categories = {
 			armor
+			armor_variant_tech
 		}
 	}
 	main_battle_tank3 = { #1960
@@ -1923,6 +1958,7 @@ technologies = {
 		
 		categories = {
 			armor
+			armor_variant_tech
 		}
 	}
 	
@@ -1958,6 +1994,7 @@ technologies = {
 		
 		categories = {
 			armor
+			armor_variant_tech
 		}
 	}
 	
@@ -1976,6 +2013,7 @@ technologies = {
 		
 		categories = {
 			armor
+			armor_variant_tech
 		}
 	}
 	main_battle_tank4 = { #E-50
@@ -2207,6 +2245,7 @@ technologies = {
 		
 		categories = {
 			armor
+			armor_variant_tech
 		}
 	}
 	
@@ -2242,6 +2281,7 @@ technologies = {
 		
 		categories = {
 			armor
+			armor_variant_tech
 		}
 	}
 	
@@ -2276,6 +2316,7 @@ technologies = {
 		}
 		categories = {
 			armor
+			armor_variant_tech
 		}
 	}
 	
@@ -2312,6 +2353,7 @@ technologies = {
 		
 		categories = {
 			armor
+			armor_variant_tech
 		}
 	}
 	
@@ -2346,6 +2388,7 @@ technologies = {
 		}
 		categories = {
 			armor
+			armor_variant_tech
 		}
 	}
 		
@@ -2382,6 +2425,7 @@ technologies = {
 		
 		categories = {
 			armor
+			armor_variant_tech
 		}
 	}
 	
@@ -2416,6 +2460,7 @@ technologies = {
 		}
 		categories = {
 			armor
+			armor_variant_tech
 		}
 	}
 		
@@ -2452,6 +2497,7 @@ technologies = {
 		
 		categories = {
 			armor
+			armor_variant_tech
 		}
 	}
 	
@@ -2486,6 +2532,7 @@ technologies = {
 		}
 		categories = {
 			armor
+			armor_variant_tech
 		}
 	}
 		
@@ -2522,6 +2569,7 @@ technologies = {
 		
 		categories = {
 			armor
+			armor_variant_tech
 		}
 	}
 	
@@ -2556,6 +2604,7 @@ technologies = {
 		}
 		categories = {
 			armor
+			armor_variant_tech
 		}
 	}
 	
@@ -2676,6 +2725,7 @@ technologies = {
 		
 		categories = {
 			armor
+			armor_variant_tech
 		}
 	}
 	
@@ -2703,6 +2753,7 @@ technologies = {
 		
 		categories = {
 			armor
+			armor_variant_tech
 		}
 	}
 
@@ -2731,6 +2782,7 @@ technologies = {
 		
 		categories = {
 			armor
+			armor_variant_tech
 		}
 	}
 	
@@ -2832,6 +2884,7 @@ technologies = {
 		
 		categories = {
 			armor
+			armor_variant_tech
 		}
 	}
 	
@@ -2861,6 +2914,7 @@ technologies = {
 		
 		categories = {
 			armor
+			armor_variant_tech
 		}
 	}
 
@@ -2891,6 +2945,7 @@ technologies = {
 		
 		categories = {
 			armor
+			armor_variant_tech
 		}
 	}
 	
@@ -2975,6 +3030,7 @@ technologies = {
 		
 		categories = {
 			armor
+			armor_variant_tech
 		}
 	}
 	
@@ -3004,6 +3060,7 @@ technologies = {
 		
 		categories = {
 			armor
+			armor_variant_tech
 		}
 	}
 	
@@ -3033,6 +3090,7 @@ technologies = {
 		
 		categories = {
 			armor
+			armor_variant_tech
 		}
 	}
 	
@@ -3088,6 +3146,7 @@ technologies = {
 		
 		categories = {
 			armor
+			armor_variant_tech
 		}
 	}
 	
@@ -3106,6 +3165,7 @@ technologies = {
 		
 		categories = {
 			armor
+			armor_variant_tech
 		}
 	}
 	
@@ -3210,6 +3270,7 @@ technologies = {
 
 		categories = {
 			armor
+			armor_variant_tech
 		}
 	}
 		
@@ -3236,6 +3297,7 @@ technologies = {
 		
 		categories = {
 			armor
+			armor_variant_tech
 		}
 	}
 	
@@ -3256,6 +3318,7 @@ technologies = {
 		
 		categories = {
 			armor
+			armor_variant_tech
 		}
 	}
 

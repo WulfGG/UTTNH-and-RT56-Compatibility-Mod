@@ -1283,6 +1283,7 @@ technologies = {
 			light_fighter
 			air_equipment
 			cat_heavy_fighter
+			fighter_bomber
 		}
 		
 		ai_will_do = {
@@ -1312,6 +1313,7 @@ technologies = {
 			light_fighter
 			air_equipment
 			cat_heavy_fighter
+			fighter_bomber
 		}
 		
 		ai_will_do = {
@@ -3235,6 +3237,7 @@ technologies = {
 			light_fighter
 			air_equipment
 			jet_technology
+			fighter_bomber
 		}
 
 		ai_will_do = {
@@ -3271,6 +3274,7 @@ technologies = {
 			cat_heavy_fighter
 			air_equipment
 			jet_technology
+			fighter_bomber
 		}
 		
 		ai_will_do = {
@@ -3305,6 +3309,7 @@ technologies = {
 			cat_heavy_fighter
 			air_equipment
 			jet_technology
+			fighter_bomber
 		}
 		
 		ai_will_do = {
@@ -3339,6 +3344,8 @@ technologies = {
 			cat_heavy_fighter
 			air_equipment
 			jet_technology
+			fighter_bomber
+
 		}
 		
 		ai_will_do = {
@@ -3372,6 +3379,8 @@ technologies = {
 			cat_heavy_fighter
 			air_equipment
 			jet_technology
+			fighter_bomber
+
 		}
 		
 		ai_will_do = {
@@ -3405,6 +3414,8 @@ technologies = {
 			cat_heavy_fighter
 			air_equipment
 			jet_technology
+			fighter_bomber
+
 		}
 		
 		ai_will_do = {
@@ -3438,6 +3449,8 @@ technologies = {
 			cat_heavy_fighter
 			air_equipment
 			jet_technology
+			fighter_bomber
+
 		}
 		
 		ai_will_do = {
@@ -3468,6 +3481,8 @@ technologies = {
 			cat_heavy_fighter
 			air_equipment
 			jet_technology
+			fighter_bomber
+
 		}
 		
 		ai_will_do = {
@@ -4068,6 +4083,8 @@ technologies = {
 		categories = {
 			medium_air
 			air_equipment
+			heavy_air
+			transport_plane_tech
 		}
 		
 		ai_will_do = {
@@ -4098,6 +4115,9 @@ technologies = {
 		categories = {
 			medium_air
 			air_equipment
+			heavy_air
+			transport_plane_tech
+
 		}
 		
 		ai_will_do = {
@@ -4128,6 +4148,9 @@ technologies = {
 		categories = {
 			medium_air
 			air_equipment
+			heavy_air
+			transport_plane_tech
+
 		}
 		
 		ai_will_do = {
@@ -4158,6 +4181,9 @@ technologies = {
 		categories = {
 			medium_air
 			air_equipment
+			heavy_air
+			transport_plane_tech
+
 		}
 		
 		ai_will_do = {
@@ -4192,6 +4218,9 @@ technologies = {
 			medium_air
 			air_equipment
 			jet_technology
+			heavy_air
+			transport_plane_tech
+
 		}
 		
 		ai_will_do = {
@@ -4224,6 +4253,9 @@ technologies = {
 			medium_air
 			air_equipment
 			jet_technology
+			heavy_air
+			transport_plane_tech
+
 		}
 		
 		ai_will_do = {
@@ -4253,6 +4285,9 @@ technologies = {
 			medium_air
 			air_equipment
 			jet_technology
+			heavy_air
+			transport_plane_tech
+
 		}
 		
 		ai_will_do = {

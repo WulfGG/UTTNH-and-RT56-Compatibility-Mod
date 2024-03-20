@@ -2150,6 +2150,7 @@ technologies = {
 		
 		categories = {
 			train_tech
+			supply_node_tech
 		}
 	}
 
@@ -2297,6 +2298,7 @@ technologies = {
 		
 		categories = {
 			train_tech
+			supply_node_tech
 		}
 	}
 
@@ -2387,6 +2389,7 @@ technologies = {
 		
 		categories = {
 			train_tech
+			supply_node_tech
 		}
 	}
 
@@ -2477,6 +2480,7 @@ technologies = {
 		
 		categories = {
 			train_tech
+			supply_node_tech
 		}
 	}
 
@@ -2567,6 +2571,7 @@ technologies = {
 		
 		categories = {
 			train_tech
+			supply_node_tech
 		}
 	}
 
@@ -2652,6 +2657,7 @@ technologies = {
 		
 		categories = {
 			train_tech
+			supply_node_tech
 		}
 	}
 
