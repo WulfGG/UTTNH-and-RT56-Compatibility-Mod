@@ -16,4 +16,4 @@ Install:
 4. Move the extracted folder into the mod folder.
 5. Go to HOI4 launcher and enable the mod.
 
-<sub> I can't upload it on Steam Workshop, because I don't own the game legitly yet. Maybe I'll buy it in April. :) </sub>
+<sub> **Update:** I've bought the game. However, I will upload it when some bugs are fixed and the mod is ready. </sub>
