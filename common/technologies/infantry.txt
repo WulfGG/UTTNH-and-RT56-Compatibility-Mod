@@ -26,6 +26,7 @@ technologies = {
 		
 		enable_subunits = {
 			infantry
+			garrison
 		}
 		
 		path = {
@@ -5581,6 +5582,64 @@ technologies = {
 		}
 	}
 
+#################################################################################################################
+#################################################################################################################
+#################################################################################################################
+#################################################################################################################
+#################################################################################################################
+
+	tech_trucks = { 
+
+		enable_subunits = {
+			mot_anti_tank_brigade
+			mot_artillery_brigade
+			mot_anti_air_brigade
+		}
+
+		enable_equipments = {
+			motorized_equipment
+		}
+
+		path = {
+			leads_to_tech = motorised_infantry
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+		start_year = 1918
+		folder = {
+			name = infantry_folder
+			position = { x = 1 y = -1 }
+		}
+		
+		categories = {
+			motorized_equipment
+			infantry_tech
+		}
+		
+		ai_will_do = {
+			factor = 5
+			
+			modifier = {
+				factor = 6
+				date > "1937.1.1"
+			}
+			
+			modifier = {
+				factor = 7
+				date > "1938.1.1"
+			}
+			
+			modifier = {
+				factor = 8
+				date > "1939.1.1"
+			}
+			modifier = {
+				is_major = no
+				factor = 3
+			}
+		}
+	}
 
 	
 	motorised_infantry = {

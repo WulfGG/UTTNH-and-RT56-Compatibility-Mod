@@ -1546,6 +1546,11 @@ spriteTypes = {
 	#END
 
 	SpriteType = {
+		name = "GFX_GER_infantry_at6_medium"
+		texturefile = "gfx/interface/technologies/JAP/LAND/AT6.dds"
+	}	
+
+	SpriteType = {
 		name = "GFX_GER_infantry_at2_medium"
 		texturefile = "gfx/interface/technologies/CZE/LAND/RPG2.dds"
 	}	
@@ -2367,22 +2372,22 @@ spriteTypes = {
 		texturefile = "gfx/interface/technologies/excavation10.dds"
 	}	
 	SpriteType = {
-		name = "GFX_excavation9_medium"
+		name = "GFX_excavation_d_medium"
 		texturefile = "gfx/interface/technologies/excavation9.dds"
 	}	
 
 	SpriteType = {
-		name = "GFX_excavation8_medium"
+		name = "GFX_excavation_c_medium"
 		texturefile = "gfx/interface/technologies/excavation8.dds"
 	}	
 
 	SpriteType = {
-		name = "GFX_excavation7_medium"
+		name = "GFX_excavation_b_medium"
 		texturefile = "gfx/interface/technologies/excavation7.dds"
 	}	
 
 	SpriteType = {
-		name = "GFX_excavation6_medium"
+		name = "GFX_excavation_a_medium"
 		texturefile = "gfx/interface/technologies/excavation6.dds"
 	}	
 
@@ -2787,22 +2792,22 @@ spriteTypes = {
 	}
 
 	SpriteType = {
-		name = "GFX_construction6_medium"
+		name = "GFX_construction_a_medium"
 		texturefile = "gfx/interface/technologies/construction6.dds"
 	}	
 
 	SpriteType = {
-		name = "GFX_construction7_medium"
+		name = "GFX_construction_b_medium"
 		texturefile = "gfx/interface/technologies/construction7.dds"
 	}	
 
 	SpriteType = {
-		name = "GFX_construction8_medium"
+		name = "GFX_construction_c_medium"
 		texturefile = "gfx/interface/technologies/construction8.dds"
 	}	
 
 	SpriteType = {
-		name = "GFX_construction9_medium"
+		name = "GFX_construction_d_medium"
 		texturefile = "gfx/interface/technologies/construction9.dds"
 	}
 	SpriteType = {

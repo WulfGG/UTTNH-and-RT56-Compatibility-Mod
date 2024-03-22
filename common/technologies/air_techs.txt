@@ -7,7 +7,7 @@ technologies = {
 		}
 
 		path = {	#OpO
-			leads_to_tech = cv_fighter0
+			leads_to_tech = cv_early_fighter
 			research_cost_coeff = 0.75
 		}
 	
@@ -75,7 +75,7 @@ technologies = {
 		}
 	}
 
-	cv_fighter0 = {	#OpO
+	cv_early_fighter = {	#OpO
 
 		enable_equipments = {
 			cv_fighter_equipment_0

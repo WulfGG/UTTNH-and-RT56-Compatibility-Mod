@@ -2063,7 +2063,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		path = {
-			leads_to_tech = construction6
+			leads_to_tech = construction_a
 			research_cost_coeff = 1
 		}
 		
@@ -3270,17 +3270,17 @@ technologies = {
 		}
 	}
 	
-	construction6 = {
+	construction_a = {
 
 		production_speed_buildings_factor = 0.10
 		industry_repair_factor = 0.10
 		
 		path = {
-			leads_to_tech = construction7 
+			leads_to_tech = construction_b 
 			research_cost_coeff = 1
 		}
 		path = {
-			leads_to_tech = excavation6
+			leads_to_tech = excavation_a
 			research_cost_coeff = 1
 		}
 
@@ -3310,7 +3310,7 @@ technologies = {
 		}
 	}
 
-	excavation6 = {
+	excavation_a = {
 		
 		local_resources_factor = 0.15
 		
@@ -3343,17 +3343,17 @@ technologies = {
 		}
 	}
 	
-	construction7 = {
+	construction_b = {
 
 		production_speed_buildings_factor = 0.10
 		industry_repair_factor = 0.10
 		
 		path = {
-			leads_to_tech = construction8 
+			leads_to_tech = construction_c 
 			research_cost_coeff = 1
 		}
 		path = {
-			leads_to_tech = excavation7
+			leads_to_tech = excavation_b
 			research_cost_coeff = 1
 		}
 
@@ -3379,7 +3379,7 @@ technologies = {
 		}
 	}
 	
-	excavation7 = {
+	excavation_b = {
 		
 		local_resources_factor = 0.15
 		
@@ -3412,17 +3412,17 @@ technologies = {
 		}
 	}
 	
-	construction8 = {
+	construction_c = {
 
 		production_speed_buildings_factor = 0.10
 		industry_repair_factor = 0.10
 		
 		path = {
-			leads_to_tech = construction9 
+			leads_to_tech = construction_d 
 			research_cost_coeff = 1
 		}
 		path = {
-			leads_to_tech = excavation8
+			leads_to_tech = excavation_c
 			research_cost_coeff = 1
 		}
 
@@ -3448,7 +3448,7 @@ technologies = {
 		}
 	}
 
-	excavation8 = {
+	excavation_c = {
 		
 		local_resources_factor = 0.2
 		
@@ -3481,7 +3481,7 @@ technologies = {
 		}
 	}
 	
-	construction9 = {
+	construction_d = {
 
 		production_speed_buildings_factor = 0.10
 		industry_repair_factor = 0.10
@@ -3492,7 +3492,7 @@ technologies = {
 		}
 		
 		path = {
-			leads_to_tech = excavation9
+			leads_to_tech = excavation_d
 			research_cost_coeff = 1
 		}
 
@@ -3518,7 +3518,7 @@ technologies = {
 		}
 	}
 	
-	excavation9 = {
+	excavation_d = {
 		
 		local_resources_factor = 0.15
 		

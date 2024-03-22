@@ -457,6 +457,8 @@ l_english:
  jaegers5_desc:0"Is it cold out, or is it just me? \n \n§GThis unit type does not count toward the Special Forces cap but instead requires 5 Support Equipment per Battalion§!"
  jaegers6:0"Jaeger Infantry VI"
  jaegers6_desc:0"Is it cold out, or is it just me? \n \n§GThis unit type does not count toward the Special Forces cap but instead requires 5 Support Equipment per Battalion§!"
+ jaegers7:0"Jaeger Infantry VII"
+ jaegers7_desc:0"Is it cold out, or is it just me? \n \n§GThis unit type does not count toward the Special Forces cap but instead requires 5 Support Equipment per Battalion§!"
 
  jungletroops:0"Jungle Infantry I"
  jungletroops_desc:0"Jungle Specialists are trained to sustain the harsh conditions of Jungle Warfare and challenge the Enemy on their terms.\n \n§GThis unit type does not count toward the Special Forces cap but instead requires 5 Support Equipment per Battalion§!"
@@ -470,6 +472,9 @@ l_english:
  jungletroops5_desc:0"Jungle Specialists are trained to sustain the harsh conditions of Jungle Warfare and to cope with the frequent lack of supplies. \n \n§GThis unit type does not count toward the Special Forces cap but instead requires 5 Support Equipment per Battalion§!"
  jungletroops6:0"Jungle Infantry VI"
  jungletroops6_desc:0"Jungle Specialists are trained to sustain the harsh conditions of Jungle Warfare and to cope with the frequent lack of supplies. \n \n§GThis unit type does not count toward the Special Forces cap but instead requires 5 Support Equipment per Battalion§!"
+ jungletroops7:0"Jungle Infantry VII"
+ jungletroops7_desc:0"Jungle Specialists are trained to sustain the harsh conditions of Jungle Warfare and to cope with the frequent lack of supplies. \n \n§GThis unit type does not count toward the Special Forces cap but instead requires 5 Support Equipment per Battalion§!"
+
 
  shocktroops:0"Shock Troops I"
  shocktroops_desc:0"Shock Troops are used to heavily assault the defensive lines of your enemy to achieve a breakthrough in specific places. These units have a higher breakthrough and hard attack compared to regular infantry. However, Shock Troops or Stoßtruppen also have a higher supply consumption and an increased recovery time."
@@ -483,6 +488,8 @@ l_english:
  shocktroops5_desc:0"Shock Troops are used to heavily assault the defensive lines of your enemy to achieve a breakthrough in specific places. These units have a higher breakthrough and hard attack compared to regular infantry. However, Shock Troops or Stoßtruppen also have a higher supply consumption and an increased recovery time."
  shocktroops6:0"Shock Troops VI"
  shocktroops6_desc:0"Shock Troops are used to heavily assault the defensive lines of your enemy to achieve a breakthrough in specific places. These units have a higher breakthrough and hard attack compared to regular infantry. However, Shock Troops or Stoßtruppen also have a higher supply consumption and an increased recovery time."
+shocktroops7:0"Shock Troops VII"
+ shocktroops7_desc:0"Shock Troops are used to heavily assault the defensive lines of your enemy to achieve a breakthrough in specific places. These units have a higher breakthrough and hard attack compared to regular infantry. However, Shock Troops or Stoßtruppen also have a higher supply consumption and an increased recovery time."
 
  desertinfantry_at:0"Desert Infantry I"
  desertinfantry_at_desc:0"Combat in the Desert ranges exposes troops to many perils but sometimes cannot be avoided. We can minimize these risks by providing our soldiers with specialized training for this environment.\n \n§GThis unit type does not count toward the Special Forces cap but instead requires 5 Support Equipment per Battalion§!"
@@ -496,6 +503,8 @@ l_english:
  desertinfantry_at5_desc:0"The sandy mountains of the desert can be treacherous to your regular Infantry. To cope in this environment, we can train our Desert Infantry to gain the upper hand in the desert.\n \n§GThis unit type does not count toward the Special Forces cap but instead requires 5 Support Equipment per Battalion§!"
  desertinfantry_at6:0"Desert Infantry VI"
  desertinfantry_at6_desc:0"The sandy mountains of the desert can be treacherous to your regular Infantry. To cope in this environment, we can train our Desert Infantry to gain the upper hand in the desert.\n \n§GThis unit type does not count toward the Special Forces cap but instead requires 5 Support Equipment per Battalion§!"
+ desertinfantry_at7:0"Desert Infantry VII"
+ desertinfantry_at7_desc:0"The sandy mountains of the desert can be treacherous to your regular Infantry. To cope in this environment, we can train our Desert Infantry to gain the upper hand in the desert.\n \n§GThis unit type does not count toward the Special Forces cap but instead requires 5 Support Equipment per Battalion§!"
 
 
  tech_flamethrower:0"Flamethrower I"
