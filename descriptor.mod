@@ -1,4 +1,4 @@
-version="0.9"
+version="1.2"
 tags={
 	"Gameplay"
 	"Graphics"
