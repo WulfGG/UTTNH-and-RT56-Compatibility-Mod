@@ -1,0 +1,9 @@
+####### -KIM FAVORITE TOYS- #######
+
+spriteTypes = {
+
+	SpriteType = { name = "GFX_nukes_medium" texturefile = "gfx/interface/technologies/nukes/nukes.dds" }
+	SpriteType = { name = "GFX_nukes_2_medium" texturefile = "gfx/interface/technologies/nukes/nukes_2.dds" }
+	SpriteType = { name = "GFX_nukes_3_medium" texturefile = "gfx/interface/technologies/nukes/mini_nuke.dds" }
+	SpriteType = { name = "GFX_nuclear_reactor2_medium" texturefile = "gfx/interface/technologies/nukes/nuclear_reactor2.dds" }
+}

@@ -1546,8 +1546,13 @@ spriteTypes = {
 	#END
 
 	SpriteType = {
+		name = "GFX_GER_infantry_at4_medium"
+		texturefile = "gfx/interface/technologies/GER/LAND/IAT4.dds"
+	}	
+
+	SpriteType = {
 		name = "GFX_GER_infantry_at6_medium"
-		texturefile = "gfx/interface/technologies/JAP/LAND/AT6.dds"
+		texturefile = "gfx/interface/technologies/GER/LAND/IAT6.dds"
 	}	
 
 	SpriteType = {
@@ -2136,20 +2141,20 @@ spriteTypes = {
 		texturefile = "gfx/interface/technologies/advanced_computing_machine.dds"
 	}	
 	
-	SpriteType = {
-		name = "GFX_basic_vacuum_computer_medium"
-		texturefile = "gfx/interface/technologies/advanced_computing_machine.dds"
-	}	
+#	SpriteType = {
+#		name = "GFX_basic_vacuum_computer_medium"
+#		texturefile = "gfx/interface/technologies/advanced_computing_machine.dds"
+#	}	
 	
-	SpriteType = {
-		name = "GFX_improved_vacuum_computer_medium"
-		texturefile = "gfx/interface/technologies/advanced_computing_machine.dds"
-	}	
+#	SpriteType = {
+#		name = "GFX_improved_vacuum_computer_medium"
+#		texturefile = "gfx/interface/technologies/advanced_computing_machine.dds"
+#	}	
 	
-	SpriteType = {
-		name = "GFX_basic_transistor_computer_medium"
-		texturefile = "gfx/interface/technologies/advanced_computing_machine.dds"
-	}	
+#	SpriteType = {
+#		name = "GFX_basic_transistor_computer_medium"
+#		texturefile = "gfx/interface/technologies/advanced_computing_machine.dds"
+#	}	
 	
 	SpriteType = {
 		name = "GFX_basic_vacuum_computing_machine_medium"
@@ -2253,11 +2258,11 @@ spriteTypes = {
 	
 	SpriteType = {
 		name = "GFX_naval_reactor_medium"
-		texturefile = "gfx/interface/technologies/ICONS/NAVALREACTOR1.dds"
+		texturefile = "gfx/interface/technologies/nukes/naval_reactor_1.dds"
 	}
 	SpriteType = {
 		name = "GFX_naval_reactor_2_medium"
-		texturefile = "gfx/interface/technologies/ICONS/NAVALREACTOR2.dds"
+		texturefile = "gfx/interface/technologies/nukes/naval_reactor_2.dds"
 	}
 	SpriteType = {
 		name = "GFX_heli_engines_medium"

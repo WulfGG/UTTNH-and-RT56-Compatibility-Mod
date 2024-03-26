@@ -3169,6 +3169,100 @@ technologies = {
 		}
 	}
 	
+
+	super_heavy_tank = { #Maus
+
+		enable_equipments = {
+			super_heavy_tank_equipment_1
+		}
+		
+		path = {
+			leads_to_tech = super_heavy_tank_a
+			research_cost_coeff = 1
+		}
+	
+		research_cost = 2.5
+		start_year = 1943
+		folder = {
+			name = armour_folder
+			position = { x = 8 y = 10 }
+		}
+		
+		sub_technologies = {
+			super_heavy_td
+			super_heavy_art
+			super_heavy_spaa
+		}
+		
+		ai_will_do = {
+			factor = 0
+		}
+		
+		categories = {
+			armor
+			cat_heavy_armor
+		}
+	}
+	
+###------> X <><> <><> <><> <><> <><>
+	
+	super_heavy_td = {
+
+		enable_equipments = {
+			super_heavy_tank_destroyer_equipment_1
+		}
+	
+		research_cost = 0.5
+		start_year = 1943
+		
+		ai_will_do = {
+			factor = 0
+		}
+		
+		categories = {
+			armor
+			armor_variant_tech
+		}
+	}
+	
+	super_heavy_art = {
+
+		enable_equipments = {
+			super_heavy_tank_artillery_equipment_1
+		}
+	
+		research_cost = 0.5
+		start_year = 1943
+		
+		ai_will_do = {
+			factor = 0
+		}
+		
+		categories = {
+			armor
+			armor_variant_tech
+		}
+	}
+	
+	super_heavy_spaa = {
+
+		enable_equipments = {
+			super_heavy_tank_aa_equipment_1
+		}
+	
+		research_cost = 0.5
+		start_year = 1943
+		
+		ai_will_do = {
+			factor = 0
+		}
+		
+		categories = {
+			armor
+			armor_variant_tech
+		}
+	}
+
 	#OpO Remove heavy spaa
 	
 	cold_heavy_tank = {

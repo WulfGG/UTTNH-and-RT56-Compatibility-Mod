@@ -1,6 +1,57 @@
 spriteTypes = {
 
-	# Removed so RT56 stops conflicting with our shit.
+#-> Radio direction finding <><>
+	SpriteType = {
+		name = "GFX_rdf1_medium"
+		texturefile = "gfx/interface/technologies/electronics/r56_tech_rdf_01.dds"
+	}
+	SpriteType = {
+		name = "GFX_rdf2_medium"
+		texturefile = "gfx/interface/technologies/electronics/r56_tech_rdf_02.dds"
+	}
+	SpriteType = {
+		name = "GFX_rdf3_medium"
+		texturefile = "gfx/interface/technologies/electronics/r56_tech_rdf_03.dds"
+	}
+	SpriteType = {
+		name = "GFX_rdf4_medium"
+		texturefile = "gfx/interface/technologies/electronics/r56_tech_rdf_04.dds"
+	}
+	SpriteType = {
+		name = "GFX_rdf5_medium"
+		texturefile = "gfx/interface/technologies/electronics/r56_tech_rdf_05.dds"
+	}
+	SpriteType = {
+		name = "GFX_rdf6_medium"
+		texturefile = "gfx/interface/technologies/electronics/r56_tech_rdf_06.dds"
+	}
 
-	
+#-> Radar <><>
+	SpriteType = {
+		name = "GFX_future_radar_medium"
+		texturefile = "gfx/interface/technologies/electronics/r56_tech_future_radar_01.dds"
+	}
+	SpriteType = {
+		name = "GFX_future_radar_2_medium"
+		texturefile = "gfx/interface/technologies/electronics/r56_tech_future_radar_02.dds"
+	}
+
+#-> Computing machines <><>
+	SpriteType = {
+		name = "GFX_early_vacuum_computer_medium"
+		texturefile = "gfx/interface/technologies/electronics/r56_tech_future_computing_machine_01.dds"
+	}
+	SpriteType = {
+		name = "GFX_basic_vacuum_computer_medium"
+		texturefile = "gfx/interface/technologies/electronics/r56_tech_future_computing_machine_02.dds"
+	}
+	SpriteType = {
+		name = "GFX_improved_vacuum_computer_medium"
+		texturefile = "gfx/interface/technologies/electronics/r56_tech_future_computing_machine_03.dds"
+	}
+	SpriteType = {
+		name = "GFX_basic_transistor_computer_medium"
+		texturefile = "gfx/interface/technologies/electronics/r56_tech_future_computing_machine_04.dds"
+	}
+
 }

@@ -2014,6 +2014,7 @@ SWE_light_tank_equipment_6:0 "Strv 74"
  
  GER_infantry_at:0 "Panzerfaust 30"
  GER_infantry_at2:0 "Panzerschreck"
+ GER_infantry_at4:0 "Panzerfaust-2"
  GER_infantry_at6:0 "Panzerfaust-3"
  GER_support_weapons:0 "MG 08 & leichter Minenwerfer"
  GER_support_weapons2:0 "MG 34 & 5 cm Granatwerfer 36"
@@ -5647,5 +5648,7 @@ SWE_light_tank_equipment_6:0 "Strv 74"
  JAP_armored_car_at_equipment:0 "Type 4 Armored Car"
  JAP_armored_car_at_equipment_short:0 "Type 4 Armored Car"
 
+ nuclear_reactor2:0 "Generation I Reactor"
+ nuclear_reactor2_desc:0 "This improved reactor design utilizes enriched uranium fuel, significantly increasing energy output while maintaining a stable and efficient operation."
 
 EQUIPMENT_DESCRIPTION:0 "$NAME$"

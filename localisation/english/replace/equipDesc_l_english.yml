@@ -139,6 +139,8 @@
  air_bomber_techs_folder_desc:0 "Naval Bombers, Strategic Bombers, Tactical Bombers, and Transport Aircraft." 
  bba_air_special_techs_folder:0 "Special Aircraft" 
  bba_air_special_techs_folder_desc:0 "Helicopters and drones."
+ early_vacuum_computer:0 "Early Vacuum Computers" 
+ early_vacuum_computer_desc:0 "By utilizing evacuated tubes to manipulate electrical currents, these machines are capable of performing complex calculations at speeds far exceeding their mechanical predeccessors." 
  basic_vacuum_computer:0 "Basic Vacuum Computers" 
  basic_vacuum_computer_desc:0 "With this the first vacuum tube based computers grace the world of computing, bringing unseen potential to the field." 
  improved_vacuum_computer:0 "Improved Vacuum Computers" 
