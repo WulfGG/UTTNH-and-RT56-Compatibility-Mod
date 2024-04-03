@@ -16,4 +16,4 @@ Install:
 4. Move the extracted folder into the mod folder.
 5. Go to HOI4 launcher and enable the mod.
 
-<sub> **Update:** I've bought the game. However, I will upload it when some bugs are fixed and the mod is ready. </sub>
+If you **didn't understand** how to install it, then watch [**this video**](https://youtu.be/9EzXk6uhCOE?t=54s).
