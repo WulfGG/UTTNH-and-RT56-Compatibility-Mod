@@ -1359,8 +1359,10 @@
  GER_cw_heavy_tank_chassis_2:0 "Heavy Leopard Chassis"
  GER_cw_heavy_tank_chassis_2_short:0 "Heavy Leopard Chassis"
 
+# GER mbt name fuck up
+
  GER_main_battle_tank_chassis:0 "Panzer V 'Panther II' Chassis"
- GER_modern_tank_chassis_0:0 "Panzer V 'Panther II' Chassis"
+ GER_modern_tank_chassis_0:0 "Panzer V 'Panther II' Chassis,"
  GER_modern_tank_chassis_1:0 "E-50 Chassis"
  GER_main_battle_tank_chassis_1:0 "E-50 Chassis"
  GER_modern_tank_chassis_2:0 "Indien Panzer Chassis"
@@ -1369,14 +1371,14 @@
  GER_main_battle_tank_chassis_3:0 "Leopard 1 Prototype Chassis"
  GER_modern_tank_chassis_4:0 "Leopard 1 Chassis"
  GER_main_battle_tank_chassis_4:0 "Leopard 1 Chassis"
- GER_modern_tank_chassis_5:0 "Leopard 1A1 Chassis"
- GER_main_battle_tank_chassis_5:0 "Leopard 1A1 Chassis"
- GER_modern_tank_chassis_6:0 "Leopard A1A1 Chassis"
- GER_main_battle_tank_chassis_6:0 "Leopard A1A1 Chassis"
+ GER_modern_tank_chassis_5:0 "Leopard A1A1 Chassis"
+ GER_main_battle_tank_chassis_5:0 "Leopard A1A1 Chassis"
+ GER_modern_tank_chassis_6:0 "Leopard 1A5 Chassis"
+ GER_main_battle_tank_chassis_6:0 "Leopard 1A5 Chassis"
  GER_modern_tank_chassis_7:0 "Leopard 2K Chassis"
  GER_main_battle_tank_chassis_7:0 "Leopard 2K Chassis"
  GER_modern_tank_chassis_8:0 "Leopard 2 Chassis"
- GER_main_battle_tank_chassis_8:0 "Leopard 2 Chassis"
+ GER_main_battle_tank_chassis_8:0 "Leopard 2A4 Chassis"
  GER_modern_tank_chassis_9:0 "Leopard 2A5 Chassis"
  GER_main_battle_tank_chassis_9:0 "Leopard 2A5 Chassis"
 
