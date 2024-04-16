@@ -2082,7 +2082,7 @@ technologies = {
 			name = electronics_folder
 			position = { x = 13 y = 22 }
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 		}
@@ -2561,10 +2561,10 @@ technologies = {
 			leads_to_tech = nukes 
 			research_cost_coeff = 1
 		}
-		path = {
-			leads_to_tech = nuclear_reactor2 
-			research_cost_coeff = 1
-		}
+#		path = {
+#			leads_to_tech = nuclear_reactor2 
+#			research_cost_coeff = 1
+#		}
 		
 		ai_will_do = {
 			factor = 3

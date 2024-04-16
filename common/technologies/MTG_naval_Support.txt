@@ -301,10 +301,6 @@ technologies = {
 		}
 
 		path = {
-			leads_to_tech = ship_light_ASM_battery_1
-			research_cost_coeff = 1
-		}
-		path = {
 			leads_to_tech = light_battery60
 			research_cost_coeff = 1
 		}
@@ -366,7 +362,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalsupportfolder
-			position = { x = -3 y = 32 }
+			position = { x = 1 y = 25 }
 		}
 		
 		ai_will_do = {
@@ -410,7 +406,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalsupportfolder
-			position = { x = -3 y = 38 }
+			position = { x = 1 y = 28 }
 		}
 		
 		ai_will_do = {
@@ -454,7 +450,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalsupportfolder
-			position = { x = -3 y = 44 }
+			position = { x = 1 y = 34 }
 		}
 		
 		ai_will_do = {
@@ -502,7 +498,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalsupportfolder
-			position = { x = -3 y = 50 }
+			position = { x = 1 y = 40 }
 		}
 		
 		ai_will_do = {
@@ -544,7 +540,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalsupportfolder
-			position = { x = -3 y = 56 }
+			position = { x = 1 y = 46 }
 		}
 		
 		ai_will_do = {
@@ -585,7 +581,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalsupportfolder
-			position = { x = 0 y = 50 }
+			position = { x = -2 y = 40 }
 		}
 		
 		ai_will_do = {
@@ -622,7 +618,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalsupportfolder
-			position = { x = 0 y = 56 }
+			position = { x = -2 y = 46 }
 		}
 		
 		ai_will_do = {
@@ -663,7 +659,7 @@ technologies = {
 	
 		folder = {
 			name = mtgnavalsupportfolder
-			position = { x = -6 y = 38 }
+			position = { x = -6 y = 28 }
 		}
 		
 		ai_will_do = {
@@ -705,7 +701,7 @@ technologies = {
 		}
 		folder = {
 			name = mtgnavalsupportfolder
-			position = { x = -6 y = 44 }
+			position = { x = -6 y = 34 }
 		}
 		
 		ai_will_do = {
@@ -748,7 +744,7 @@ technologies = {
 		
 		folder = {
 			name = mtgnavalsupportfolder
-			position = { x = -6 y = 50 }
+			position = { x = -6 y = 40 }
 		}
 		
 		ai_will_do = {
@@ -779,7 +775,7 @@ technologies = {
 		}
 		folder = {
 			name = mtgnavalsupportfolder
-			position = { x = -6 y = 56 }
+			position = { x = -6 y = 46 }
 		}
 		
 		ai_will_do = {
@@ -1001,7 +997,10 @@ technologies = {
 		on_research_complete = {
 			custom_effect_tooltip = medium_battery_advice_tt
 		}
-
+		path = {
+			leads_to_tech = ship_light_ASM_battery_1
+			research_cost_coeff = 1
+		}
 
 		folder = {
 			name = mtgnavalsupportfolder
@@ -1199,7 +1198,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalsupportfolder
-			position = { x = 6 y = 32 }
+			position = { x = 6 y = 25 }
 		}
 		
 		ai_will_do = {
@@ -1240,7 +1239,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalsupportfolder
-			position = { x = 6 y = 38 }
+			position = { x = 6 y = 28 }
 		}
 		
 		ai_will_do = {
@@ -1282,7 +1281,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalsupportfolder
-			position = { x = 6 y = 44 }
+			position = { x = 6 y = 34 }
 		}
 		
 		ai_will_do = {
@@ -1324,7 +1323,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalsupportfolder
-			position = { x = 6 y = 50 }
+			position = { x = 6 y = 40 }
 		}
 		
 		ai_will_do = {
@@ -1360,7 +1359,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalsupportfolder
-			position = { x = 6 y = 56 }
+			position = { x = 6 y = 46 }
 		}
 		
 		ai_will_do = {
@@ -1575,6 +1574,11 @@ technologies = {
 			dp_ship_secondaries_4
 		}
 
+		path = {
+			leads_to_tech = light_battery60
+			research_cost_coeff = 1
+		}
+
 		on_research_complete = {
 			custom_effect_tooltip = secondary_battery_advice_tt
 		}
@@ -1616,6 +1620,11 @@ technologies = {
 
 		enable_equipment_modules = {
 			dp_ship_medium_1
+		}
+
+		path = {
+			leads_to_tech = ship_light_ASM_battery_1
+			research_cost_coeff = 1
 		}
 
 		on_research_complete = {
@@ -2030,7 +2039,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalsupportfolder
-			position = { x = 0 y = 26 }
+			position = { x = 0 y = 22 }
 		}
 		
 		ai_will_do = {
@@ -2073,7 +2082,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalsupportfolder
-			position = { x = 0 y = 32 }
+			position = { x = 0 y = 25 }
 		}
 		
 		ai_will_do = {
@@ -2115,7 +2124,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalsupportfolder
-			position = { x = 0 y = 38 }
+			position = { x = 0 y = 28 }
 		}
 		
 		ai_will_do = {
@@ -2157,7 +2166,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalsupportfolder
-			position = { x = 0 y = 44 }
+			position = { x = 0 y = 34 }
 		}
 		
 		ai_will_do = {
@@ -2199,7 +2208,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalsupportfolder
-			position = { x = 0 y = 50 }
+			position = { x = 0 y = 40 }
 		}
 		
 		ai_will_do = {
@@ -2237,7 +2246,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalsupportfolder
-			position = { x = 0 y = 56 }
+			position = { x = 0 y = 46 }
 		}
 		
 		ai_will_do = {

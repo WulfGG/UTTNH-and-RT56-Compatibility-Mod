@@ -221,27 +221,6 @@ default = {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 	medium_tank_chassis_0 = {
 		pool = {
 			icons = {
@@ -491,10 +470,50 @@ default = {
 			}
 		}
 	}
+	modern_tank_chassis_0 = {
+		pool = {
+			icons = {
+				"gfx/interface/technologies/GER/m1.dds"
+				"gfx/interface/technologies/JAP/m1.dds"
+				"gfx/interface/technologies/SOV/m1.dds"
+				"gfx/interface/technologies/FRA/LAND/mbt1.dds"
+				"gfx/interface/technologies/ENG/m1.dds"
+				"gfx/interface/technologies/GEN/m1.dds"
+				"gfx/interface/technologies/USA/LAND/m1.dds"
+			}
+			models = {
+				"USA_modern_armor_entity"
+				"JAP_modern_armor_entity"
+				"SOV_modern_armor_entity"
+				"FRA_modern_armor_entity"
+				"ENG_modern_armor_entity"
+				"GER_modern_armor_entity"
+				"modern_armor_entity"
+
+			}
+		}
+	}
 	modern_tank_chassis_1 = {
 		pool = {
 			icons = {
 				"gfx/interface/technologies/GEN/m1.dds"
+				"gfx/interface/technologies/GER/m1.dds"
+				"gfx/interface/technologies/USA/LAND/m1.dds"
+				"gfx/interface/technologies/JAP/m1.dds"
+				"gfx/interface/technologies/SOV/m1.dds"
+				"gfx/interface/technologies/FRA/LAND/mbt1.dds"
+				"gfx/interface/technologies/ENG/m1.dds"
+				"gfx/interface/technologies/GEN/m1.dds"
+			}
+			models = {
+				"USA_M48_entity"
+				"JAP_modern_armor_entity"
+				"SOV_modern_armor_entity"
+				"FRA_modern_armor_entity"
+				"ENG_modern_armor_entity"
+				"GER_modern_armor_entity"
+				"modern_armor_entity"
+				"PRC_modern_tank1_entity"
 			}
 		}
 	}
@@ -502,6 +521,23 @@ default = {
 		pool = {
 			icons = {
 				"gfx/interface/technologies/GEN/m2.dds"
+				"gfx/interface/technologies/GER/m2.dds"
+				"gfx/interface/technologies/USA/LAND/m2.dds"
+				"gfx/interface/technologies/JAP/m2.dds"
+				"gfx/interface/technologies/SOV/m2.dds"
+				"gfx/interface/technologies/FRA/m2.dds"
+				"gfx/interface/technologies/ENG/m2.dds"
+				"gfx/interface/technologies/GEN/m2.dds"
+			}
+			models = {
+				"JAP_modern_armor_entity"
+				"PRC_modern_tank1_entity"
+				"amx50_entity"
+				"ENG_modern_armor_entity"
+				"GER_modern_armor_entity"
+				"modern_armor_entity"
+				"USA_M60_entity"
+				"USA_M48_entity"
 			}
 		}
 	}
@@ -509,13 +545,51 @@ default = {
 		pool = {
 			icons = {
 				"gfx/interface/technologies/GEN/m3.dds"
+				"gfx/interface/technologies/GER/m3.dds"
+				"gfx/interface/technologies/USA/LAND/m3.dds"
+				"gfx/interface/technologies/JAP/m3.dds"
+				"gfx/interface/technologies/SOV/m3.dds"
+				"gfx/interface/technologies/FRA/m3.dds"
+				"gfx/interface/technologies/ENG/m3.dds"
+				"gfx/interface/technologies/GEN/m3.dds"
 			}
+			models = {
+				"USA_M48_entity"
+				"JAP_modern_armor_entity"
+				"PRC_modern_tank1_entity"
+				"amx50_entity"
+				"ENG_modern_armor_entity"
+				"geo_leo1_entity"
+				"modern_armor_entity"
+				"USA_M60_entity"
+			}
+
 		}
 	}
 	modern_tank_chassis_4 = {
 		pool = {
 			icons = {
 				"gfx/interface/technologies/GEN/m4.dds"
+				"gfx/interface/technologies/GER/m4.dds"
+				"gfx/interface/technologies/USA/LAND/m4.dds"
+				"gfx/interface/technologies/SWE/LAND/m4.dds"
+				"gfx/interface/technologies/JAP/m4.dds"
+				"gfx/interface/technologies/SOV/m4.dds"
+				"gfx/interface/technologies/FRA/m4.dds"
+				"gfx/interface/technologies/ENG/m4.dds"
+				"gfx/interface/technologies/GEN/m4.dds"
+			}
+			models = {
+				"USA_M60_entity"
+				"USA_M48_entity"
+				"JAP_modern_armor_entity"
+				"SOV_t64bv_entity"
+				"SOV_t64_entity"
+				"STRV103_entity"
+				"FRA_modern_armor1_entity"
+				"ENG_modern_armor_entity"
+				"modern_armor_entity"
+				"geo_leo1_entity"
 			}
 		}
 	}
@@ -523,6 +597,30 @@ default = {
 		pool = {
 			icons = {
 				"gfx/interface/technologies/GEN/m5.dds"
+				"gfx/interface/technologies/GER/m5.dds"
+				"gfx/interface/technologies/USA/LAND/m5.dds"
+				"gfx/interface/technologies/SWE/LAND/m5.dds"
+				"gfx/interface/technologies/JAP/m5.dds"
+				"gfx/interface/technologies/SOV/m5.dds"
+				"gfx/interface/technologies/FRA/m5.dds"
+				"gfx/interface/technologies/ENG/m5.dds"
+				"gfx/interface/technologies/GEN/m5.dds"
+			}
+			models = {
+				"M109_entity"
+				"USA_M60_entity"
+				"USA_M48_entity"
+				"JAP_modern_armor_entity"
+				"SOV_t72desert_entity"
+				"SOV_T72B3_entity"
+				"SOV_t72bv_entity"
+				"STRV103_entity"
+				"FRA_modern_armor1_entity"
+				"ENG_modern_armor_entity"
+				"geo_leo1_entity"
+				"geo_leo1a5_entity"
+				"modern_armor_entity"
+				"SOV_t72_entity"
 			}
 		}
 	}
@@ -530,6 +628,32 @@ default = {
 		pool = {
 			icons = {
 				"gfx/interface/technologies/GEN/m6.dds"
+				"gfx/interface/technologies/GER/m6.dds"
+				"gfx/interface/technologies/USA/LAND/m6.dds"
+				"gfx/interface/technologies/SWE/LAND/m5.dds"
+				"gfx/interface/technologies/JAP/m6.dds"
+				"gfx/interface/technologies/SOV/m6.dds"
+				"gfx/interface/technologies/FRA/m6.dds"
+				"gfx/interface/technologies/ENG/m6.dds"
+				"gfx/interface/technologies/GEN/m6.dds"
+
+			}
+			models = {
+				"M109_entity"
+				"USA_M60_entity"
+				"USA_M48_entity"
+				"JAP_modern_armor_entity"
+				"SOV_2S19_entity"
+				"SOV_t72desert_entity"
+				"SOV_t72_entity"
+				"SOV_T72B3_entity"
+				"SOV_t72bv_entity"
+				"STRV103_entity"
+				"FRA_modern_armor1_entity"
+				"ENG_modern_armor_entity"
+				"geo_leo1_entity"
+				"modern_armor_entity"
+				"geo_leo1a5_entity"
 			}
 		}
 	}
@@ -537,6 +661,30 @@ default = {
 		pool = {
 			icons = {
 				"gfx/interface/technologies/GEN/m7.dds"
+				"gfx/interface/technologies/GER/m7.dds"
+				"gfx/interface/technologies/USA/LAND/m7.dds"
+				"gfx/interface/technologies/SWE/LAND/m5.dds"
+				"gfx/interface/technologies/JAP/m7.dds"
+				"gfx/interface/technologies/SOV/m7.dds"
+				"gfx/interface/technologies/FRA/m7.dds"
+				"gfx/interface/technologies/ENG/m7.dds"
+				"gfx/interface/technologies/GEN/m7.dds"
+			}
+			models = {
+				"M109_entity"
+				"USA_M1A1F_entity"
+				"USA_M1A1D_entity"
+				"JAP_modern_armor_entity"
+				"SOV_2S19_entity"
+				"SOV_t80b_entity"
+				"SOV_T72B3_entity"
+				"SOV_t72bv_entity"
+				"YUG_m84_entity"
+				"STRV103_entity"
+				"ENG_modern_armor1_entity"
+				"FRA_modern_armor1_entity"
+				"modern_armor_entity"
+				"GER_modern_armor1_entity"
 			}
 		}
 	}
@@ -544,6 +692,29 @@ default = {
 		pool = {
 			icons = {
 				"gfx/interface/technologies/GEN/m8.dds"
+				"gfx/interface/technologies/GER/m8.dds"
+				"gfx/interface/technologies/USA/LAND/m8.dds"
+				"gfx/interface/technologies/SWE/LAND/m5.dds"
+				"gfx/interface/technologies/JAP/m8.dds"
+				"gfx/interface/technologies/SOV/m8.dds"
+				"gfx/interface/technologies/FRA/m8.dds"
+				"gfx/interface/technologies/ENG/m8.dds"
+				"gfx/interface/technologies/GEN/m8.dds"
+			}
+			models = {
+				"M109_entity"
+				"USA_M1A1F_entity"
+				"USA_M1A1D_entity"
+				"JAP_modern_armor_entity"
+				"SOV_2S19_entity"
+				"SOV_t80bv_entity"
+				"YUG_m84AB_entity"
+				"STRV103_entity"
+				"ENG_modern_armor1_entity"
+				"FRA_modern_armor1_entity"
+				"GER_modern_armor1_entity"
+				"modern_armor_entity"
+				"SOV_T72B3_entity"
 			}
 		}
 	}
@@ -551,6 +722,33 @@ default = {
 		pool = {
 			icons = {
 				"gfx/interface/technologies/GEN/m9.dds"
+				"gfx/interface/technologies/GER/m9.dds"
+				"gfx/interface/technologies/USA/LAND/m9.dds"
+				"gfx/interface/technologies/SWE/LAND/m5.dds"
+				"gfx/interface/technologies/JAP/m9.dds"
+				"gfx/interface/technologies/SOV/m9.dds"
+				"gfx/interface/technologies/ITA/m9.dds"
+				"gfx/interface/technologies/YUG/m9.dds"
+				"gfx/interface/technologies/PRC/m9.dds"
+				"gfx/interface/technologies/ENG/m9.dds"
+				"gfx/interface/technologies/GEN/m9.dds"
+			}
+			models = {
+				"ZTZ96_entity"
+				"M109_entity"
+				"USA_M1A2F_entity"
+				"USA_M1A2D_entity"
+				"TYPE90_entity"
+				"SOV_2S19_entity"
+				"SOV_t80bv_entity"
+				"T90A_entity"
+				"SOV_T72B3_entity"
+				"YUG_m84AB_entity"
+				"STRV103_entity"
+				"GER_leopard2A5_entity"
+				"ENG_modern_armor1_entity"
+				"modern_armor_entity"
+				"LECLERC_entity"
 			}
 		}
 	}	
@@ -1132,7 +1330,20 @@ GER = {
 			}
 		}
 	}
-
+	modern_tank_chassis_0 = {
+		pool = {
+			icons = {
+				"gfx/interface/technologies/GER/m1.dds"
+				"gfx/interface/technologies/GER/m1SPG.dds"
+				"gfx/interface/technologies/GER/m1AA.dds"
+				"gfx/interface/technologies/GER/m1TD.dds"
+				"gfx/interface/technologies/GER/m1.dds"
+			}
+		models = {
+				"GER_modern_armor_entity"
+			}
+		}
+	}
 	modern_tank_chassis_1 = {
 		pool = {
 			icons = {
@@ -1143,7 +1354,7 @@ GER = {
 				"gfx/interface/technologies/GER/m1.dds"
 			}
 			models = {
-				"geo_leo1_entity"
+				"GER_modern_armor_entity"
 			}
 		}
 	}
@@ -1157,7 +1368,7 @@ GER = {
 				"gfx/interface/technologies/GER/m2.dds"
 			}
 			models = {
-				"geo_leo1_entity"
+				"GER_modern_armor_entity"
 			}
 		}
 	}
@@ -1700,6 +1911,19 @@ SOV = {
 			}
 		}
 	}
+	modern_tank_chassis_0 = {
+		pool = {
+			icons = {
+				"gfx/interface/technologies/SOV/m1SPG.dds"
+				"gfx/interface/technologies/SOV/m1AA.dds"
+				"gfx/interface/technologies/SOV/m1.dds"
+			}
+		models = {
+				"SOV_medium_sp_anti_air_brigade_2_entity"
+				"SOV_modern_armor_entity"
+			}
+		}
+	}
 	modern_tank_chassis_1 = {
 		pool = {
 			icons = {
@@ -1708,7 +1932,8 @@ SOV = {
 				"gfx/interface/technologies/SOV/m1.dds"
 			}
 			models = {
-				"PRC_modern_tank1_entity"
+				"SOV_medium_sp_anti_air_brigade_2_entity"
+				"SOV_modern_armor_entity"
 			}
 		}
 	}
@@ -1721,6 +1946,7 @@ SOV = {
 				"gfx/interface/technologies/SOV/m2.dds"
 			}
 			models = {
+				"SOV_medium_sp_anti_air_brigade_2_entity"
 				"PRC_modern_tank1_entity"
 			}
 		}
@@ -1761,6 +1987,7 @@ SOV = {
 			models = {
 				"SOV_t72desert_entity"
 				"SOV_t72_entity"
+				"SOV_T72B3_entity"
 				"SOV_t72bv_entity"
 			}
 		}
@@ -2254,6 +2481,19 @@ USA = {
 				"gfx/interface/technologies/USA/LAND/w2AA.dds"
 				"gfx/interface/technologies/USA/LAND/w2SPG.dds"
 				"gfx/interface/technologies/USA/LAND/w2.dds"
+			}
+		}
+	}
+	modern_tank_chassis_0 = {
+		pool = {
+			icons = {
+				"gfx/interface/technologies/USA/LAND/m1.dds"
+				"gfx/interface/technologies/USA/LAND/m1AA.dds"
+				"gfx/interface/technologies/USA/LAND/m1SPG.dds"
+				"gfx/interface/technologies/USA/LAND/m1.dds"
+			}
+			models = {
+				"USA_modern_armor_entity"
 			}
 		}
 	}
@@ -2797,6 +3037,19 @@ BRA = {
 				"gfx/interface/technologies/USA/LAND/w2AA.dds"
 				"gfx/interface/technologies/USA/LAND/w2SPG.dds"
 				"gfx/interface/technologies/USA/LAND/w2.dds"
+			}
+		}
+	}
+	modern_tank_chassis_0 = {
+		pool = {
+			icons = {
+				"gfx/interface/technologies/USA/LAND/m1.dds"
+				"gfx/interface/technologies/USA/LAND/m1AA.dds"
+				"gfx/interface/technologies/USA/LAND/m1SPG.dds"
+				"gfx/interface/technologies/USA/LAND/m1.dds"
+			}
+			models = {
+				"USA_modern_armor_entity"
 			}
 		}
 	}
@@ -4011,12 +4264,18 @@ ENG = {
 			icons = {
 				"gfx/interface/technologies/ENG/m1.dds"
 			}
+			models = {
+				"ENG_modern_armor_entity"
+			}
 		}
 	}
 	modern_tank_chassis_2 = {
 		pool = {
 			icons = {
 				"gfx/interface/technologies/ENG/m2.dds"
+			}
+			models = {
+				"ENG_modern_armor_entity"
 			}
 		}
 	}
@@ -4025,12 +4284,18 @@ ENG = {
 			icons = {
 				"gfx/interface/technologies/ENG/m3.dds"
 			}
+			models = {
+				"ENG_modern_armor_entity"
+			}
 		}
 	}
 	modern_tank_chassis_4 = {
 		pool = {
 			icons = {
 				"gfx/interface/technologies/ENG/m4.dds"
+			}
+			models = {
+				"ENG_modern_armor_entity"
 			}
 		}
 	}
@@ -4039,12 +4304,18 @@ ENG = {
 			icons = {
 				"gfx/interface/technologies/ENG/m5.dds"
 			}
+			models = {
+				"ENG_modern_armor_entity"
+			}
 		}
 	}
 	modern_tank_chassis_6 = {
 		pool = {
 			icons = {
 				"gfx/interface/technologies/ENG/m6.dds"
+			}
+			models = {
+				"ENG_modern_armor_entity"
 			}
 		}
 	}

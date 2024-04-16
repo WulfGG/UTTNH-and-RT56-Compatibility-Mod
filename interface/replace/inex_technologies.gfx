@@ -1,0 +1,55 @@
+# Credit to ([Rt56] Industrial Expansion - Extra Building Slots and Resources!) mod dev
+# https://steamcommunity.com/sharedfiles/filedetails/?id=2795238326
+
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_steel_production_5_medium"
+		texturefile = "gfx/interface/technologies/steel_production_5.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_steel_production_6_medium"
+		texturefile = "gfx/interface/technologies/steel_production_6.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_steel_production_7_medium"
+		texturefile = "gfx/interface/technologies/steel_production_7.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_steel_production_8_medium"
+		texturefile = "gfx/interface/technologies/steel_production_8.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_steel_production_9_medium"
+		texturefile = "gfx/interface/technologies/steel_production_9.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_aluminum_production_5_medium"
+		texturefile = "gfx/interface/technologies/aluminum_production_5.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_aluminum_production_6_medium"
+		texturefile = "gfx/interface/technologies/aluminum_production_6.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_aluminum_production_7_medium"
+		texturefile = "gfx/interface/technologies/aluminum_production_7.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_aluminum_production_8_medium"
+		texturefile = "gfx/interface/technologies/aluminum_production_8.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_aluminum_production_9_medium"
+		texturefile = "gfx/interface/technologies/aluminum_production_9.dds"
+	}
+}
