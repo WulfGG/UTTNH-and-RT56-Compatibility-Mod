@@ -1,0 +1,25 @@
+﻿l_english:
+ 
+ steel_production_5:0 "Steel Production V"
+ steel_production_5_desc:0 "Computers capable of numerical analysis can be utilised in our refinement processes, allowing us to make further strides in our extraction efforts."
+ steel_production_6:0 "Steel Production VI"
+ steel_production_6_desc:0 "New surveying techniques allow us to track down resource deposits of higher qualities, yielding more metal per ton of ore."
+ steel_production_7:0 "Steel Production VII"
+ steel_production_7_desc:0 "Utilising cutting-edge materials to construct our extraction machinery will allow access to more resources while increasing durability."
+ steel_production_8:0 "Steel Production VIII"
+ steel_production_8_desc:0 "Rapidly evolving computing technologies allow for more complex algorithms to be processed by our extraction machinery, unlocking yet greater efficiency."
+ steel_production_9:0 "Steel Production IX"
+ steel_production_9_desc:0 "The most modern infrastructure developments to date can be incorporated in to our mines and supply chains, allowing for far greater throughput."
+ 
+ aluminum_production_5:0 "Aluminum Production V"
+ aluminum_production_5_desc:0 "Computers capable of numerical analysis can be utilised in our refinement processes, allowing us to make further strides in our extraction efforts."
+ aluminum_production_6:0 "Aluminum Production VI"
+ aluminum_production_6_desc:0 "New surveying techniques allow us to track down resource deposits of higher qualities, yielding more metal per ton of ore."
+ aluminum_production_7:0 "Aluminum Production VII"
+ aluminum_production_7_desc:0 "Utilising cutting-edge materials to construct our extraction machinery will allow access to more resources while increasing durability."
+ aluminum_production_8:0 "Aluminum Production VIII"
+ aluminum_production_8_desc:0 "Rapidly evolving computing technologies allow for more complex algorithms to be processed by our extraction machinery, unlocking yet greater efficiency."
+ aluminum_production_9:0 "Aluminum Production IX"
+ aluminum_production_9_desc:0 "The most modern infrastructure developments to date can be incorporated in to our mines and supply chains, allowing for far greater throughput."
+
+# desc by RT56 INEX dev, not me.
