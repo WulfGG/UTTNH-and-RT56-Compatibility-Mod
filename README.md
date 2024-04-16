@@ -6,7 +6,7 @@ _This compatibility mod is still in development._
 
 Required:
 - **Hearts of Iron 4** _(v.1.14 Update)_
-- **The Road to 56** _(10 Mar. Update)_
+- **The Road to 56** _(8 Apr. Update)_
 - **Ultimate Tech Tree : New Horizon** _(28 Jan. Update)_
 
 Install:
